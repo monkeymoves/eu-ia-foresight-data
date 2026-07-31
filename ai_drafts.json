@@ -1,0 +1,2743 @@
+{
+ "generated_at": "2026-07-31T17:04:35+00:00",
+ "method": "AI drafts produced in Claude sessions using prompts/classification-prompt.md; human review required (docs/adr/0001)",
+ "taxonomy": [
+  "Agriculture, food and animal welfare",
+  "Circular economy and waste",
+  "Civil justice and company law",
+  "Climate and emissions",
+  "Competition and state aid",
+  "Consumer protection",
+  "Digital, media and connectivity",
+  "EU budget and funding programmes",
+  "Employment and social policy",
+  "Energy",
+  "Environment, water and nature",
+  "Financial services",
+  "Intellectual property",
+  "Migration and borders",
+  "Police and criminal justice",
+  "Public administration and statistics",
+  "Public health and pharmaceuticals",
+  "Single market and industry",
+  "Taxation and customs",
+  "Transport"
+ ],
+ "topics": {
+  "SWD(2022)111": "Environment, water and nature",
+  "SWD(2022)115": "Intellectual property",
+  "SWD(2022)131": "Public health and pharmaceuticals",
+  "SWD(2022)135": "Agriculture, food and animal welfare",
+  "SWD(2022)141": "Consumer protection",
+  "SWD(2022)145": "Taxation and customs",
+  "SWD(2022)167": "Environment, water and nature",
+  "SWD(2022)170": "Agriculture, food and animal welfare",
+  "SWD(2022)190": "Public health and pharmaceuticals",
+  "SWD(2022)209": "Police and criminal justice",
+  "SWD(2022)245": "Police and criminal justice",
+  "SWD(2022)282": "Digital, media and connectivity",
+  "SWD(2022)286": "Digital, media and connectivity",
+  "SWD(2022)289": "Single market and industry",
+  "SWD(2022)298": "Police and criminal justice",
+  "SWD(2022)30": "Digital, media and connectivity",
+  "SWD(2022)311": "Employment and social policy",
+  "SWD(2022)316": "Consumer protection",
+  "SWD(2022)319": "Consumer protection",
+  "SWD(2022)321": "Employment and social policy",
+  "SWD(2022)34": "Digital, media and connectivity",
+  "SWD(2022)350": "Single market and industry",
+  "SWD(2022)359": "Climate and emissions",
+  "SWD(2022)368": "Intellectual property",
+  "SWD(2022)377": "Climate and emissions",
+  "SWD(2022)384": "Circular economy and waste",
+  "SWD(2022)391": "Civil justice and company law",
+  "SWD(2022)393": "Taxation and customs",
+  "SWD(2022)395": "Civil justice and company law",
+  "SWD(2022)401": "Taxation and customs",
+  "SWD(2022)408": "Competition and state aid",
+  "SWD(2022)414": "Public health and pharmaceuticals",
+  "SWD(2022)418": "Competition and state aid",
+  "SWD(2022)42": "Civil justice and company law",
+  "SWD(2022)422": "Migration and borders",
+  "SWD(2022)425": "Police and criminal justice",
+  "SWD(2022)432": "Digital, media and connectivity",
+  "SWD(2022)435": "Environment, water and nature",
+  "SWD(2022)540": "Environment, water and nature",
+  "SWD(2022)541": "Environment, water and nature",
+  "SWD(2022)545": "Environment, water and nature",
+  "SWD(2022)546": "Financial services",
+  "SWD(2022)62": "Police and criminal justice",
+  "SWD(2022)651": "Migration and borders",
+  "SWD(2022)656": "Migration and borders",
+  "SWD(2022)658": "Migration and borders",
+  "SWD(2022)697": "Financial services",
+  "SWD(2022)721": "Public administration and statistics",
+  "SWD(2022)75": "Financial services",
+  "SWD(2022)762": "Financial services",
+  "SWD(2022)82": "Circular economy and waste",
+  "SWD(2022)85": "Consumer protection",
+  "SWD(2022)88": "Single market and industry",
+  "SWD(2022)96": "Climate and emissions",
+  "SWD(2022)99": "Climate and emissions",
+  "SWD(2023)101": "Energy",
+  "SWD(2023)11": "Public administration and statistics",
+  "SWD(2023)114": "Single market and industry",
+  "SWD(2023)118": "Intellectual property",
+  "SWD(2023)121": "Intellectual property",
+  "SWD(2023)124": "Intellectual property",
+  "SWD(2023)126": "Transport",
+  "SWD(2023)128": "Transport",
+  "SWD(2023)137": "Transport",
+  "SWD(2023)140": "Taxation and customs",
+  "SWD(2023)145": "Transport",
+  "SWD(2023)148": "Transport",
+  "SWD(2023)155": "Civil justice and company law",
+  "SWD(2023)159": "Transport",
+  "SWD(2023)161": "Single market and industry",
+  "SWD(2023)165": "Transport",
+  "SWD(2023)167": "Competition and state aid",
+  "SWD(2023)178": "Civil justice and company law",
+  "SWD(2023)192": "Public health and pharmaceuticals",
+  "SWD(2023)204": "Financial services",
+  "SWD(2023)216": "Taxation and customs",
+  "SWD(2023)224": "Financial services",
+  "SWD(2023)225": "Financial services",
+  "SWD(2023)231": "Financial services",
+  "SWD(2023)233": "Financial services",
+  "SWD(2023)240": "Public administration and statistics",
+  "SWD(2023)246": "Police and criminal justice",
+  "SWD(2023)252": "Energy",
+  "SWD(2023)256": "Circular economy and waste",
+  "SWD(2023)265": "Public administration and statistics",
+  "SWD(2023)269": "Consumer protection",
+  "SWD(2023)278": "Financial services",
+  "SWD(2023)290": "Employment and social policy",
+  "SWD(2023)293": "Civil justice and company law",
+  "SWD(2023)302": "Taxation and customs",
+  "SWD(2023)314": "Single market and industry",
+  "SWD(2023)332": "Environment, water and nature",
+  "SWD(2023)335": "Consumer protection",
+  "SWD(2023)35": "Employment and social policy",
+  "SWD(2023)351": "Transport",
+  "SWD(2023)373": "Environment, water and nature",
+  "SWD(2023)386": "Transport",
+  "SWD(2023)396": "Environment, water and nature",
+  "SWD(2023)401": "Agriculture, food and animal welfare",
+  "SWD(2023)412": "Agriculture, food and animal welfare",
+  "SWD(2023)414": "Agriculture, food and animal welfare",
+  "SWD(2023)417": "Environment, water and nature",
+  "SWD(2023)421": "Circular economy and waste",
+  "SWD(2023)441": "Transport",
+  "SWD(2023)443": "Transport",
+  "SWD(2023)445": "Transport",
+  "SWD(2023)46": "Digital, media and connectivity",
+  "SWD(2023)49": "Single market and industry",
+  "SWD(2023)59": "Consumer protection",
+  "SWD(2023)65": "Single market and industry",
+  "SWD(2023)663": "Civil justice and company law",
+  "SWD(2023)717": "Migration and borders",
+  "SWD(2023)80": "Competition and state aid",
+  "SWD(2023)86": "Energy",
+  "SWD(2023)88": "Climate and emissions",
+  "SWD(2023)906": "Consumer protection",
+  "SWD(2023)941": "Civil justice and company law",
+  "SWD(2023)97": "Agriculture, food and animal welfare",
+  "SWD(2024)10": "Employment and social policy",
+  "SWD(2024)15": "Transport",
+  "SWD(2024)155": "Energy",
+  "SWD(2024)33": "Police and criminal justice",
+  "SWD(2024)62": "Energy",
+  "SWD(2024)63": "Climate and emissions",
+  "SWD(2024)67": "Employment and social policy",
+  "SWD(2025)1058": "Climate and emissions",
+  "SWD(2025)1060": "Transport",
+  "SWD(2025)192": "Employment and social policy",
+  "SWD(2025)2000": "Energy",
+  "SWD(2025)232": "Public administration and statistics",
+  "SWD(2025)288": "Energy",
+  "SWD(2025)335": "Single market and industry",
+  "SWD(2025)398": "Police and criminal justice",
+  "SWD(2025)545": "Public health and pharmaceuticals",
+  "SWD(2025)550": "EU budget and funding programmes",
+  "SWD(2025)552": "EU budget and funding programmes",
+  "SWD(2025)555": "EU budget and funding programmes",
+  "SWD(2025)560": "Taxation and customs",
+  "SWD(2025)565": "EU budget and funding programmes",
+  "SWD(2025)590": "EU budget and funding programmes",
+  "SWD(2025)592": "EU budget and funding programmes",
+  "SWD(2025)825": "Financial services",
+  "SWD(2025)838": "Financial services",
+  "SWD(2025)943": "Financial services",
+  "SWD(2025)96": "Transport",
+  "SWD(2025)988": "Climate and emissions",
+  "SWD(2026)102": "Police and criminal justice",
+  "SWD(2026)11": "Digital, media and connectivity",
+  "SWD(2026)114": "Competition and state aid",
+  "SWD(2026)13": "Digital, media and connectivity",
+  "SWD(2026)165": "Taxation and customs",
+  "SWD(2026)300": "Transport",
+  "SWD(2026)321": "Civil justice and company law",
+  "SWD(2026)502": "Digital, media and connectivity",
+  "SWD(2026)504": "Digital, media and connectivity",
+  "SWD(2026)561": "Taxation and customs",
+  "SWD(2026)565": "Energy",
+  "SWD(2026)570": "Police and criminal justice",
+  "SWD(2026)580": "Police and criminal justice",
+  "SWD(2026)616": "Climate and emissions",
+  "SWD(2026)71": "Single market and industry",
+  "SWD(2026)89": "Competition and state aid"
+ },
+ "ias": {
+  "SWD(2022)111": {
+   "mention_verdicts": {
+    "SWD(2022)111#p2-62-1": {
+     "verdict": "embedded",
+     "evidence_quote": "expert “foresighting”-type methods, to explore the likely evolution of three different sectors going forwards from the 2020s to the 2030s and beyond",
+     "justification": "Foresighting-type methods were actually used to build case studies exploring future sector evolution as part of the consultation evidence base feeding this IA, not merely cited."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "foresighting-type case studies (stakeholder consultation)"
+   ],
+   "material_influence": "unclear",
+   "influence_how": "Foresighting-type methods fed into case studies exploring sector evolution as part of the evidence-gathering process, but the single short excerpt does not show how much this shaped the final problem definition or options.",
+   "notes": "Pipeline flagged this mention as in_reference_section=true (likely because it sits in a procedural annex on consultation activities), but the excerpt describes actual methodology used rather than a bibliography citation, so the default contextual verdict was overridden to embedded."
+  },
+  "SWD(2022)131": {
+   "mention_verdicts": {
+    "SWD(2022)131#p4-60-1": {
+     "verdict": "contextual",
+     "evidence_quote": "5. Foresight – vision and mission - of the future fulfilment and development of the GDPR.",
+     "justification": "This is a line item in an unrelated eHealth training-curriculum table, with no connection to foresight methods used in this IA's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "The mention is a training-curriculum topic label in an annex about an eHealth interoperability training task, unrelated to the European Health Data Space impact assessment's own analysis."
+  },
+  "SWD(2022)145": {
+   "mention_verdicts": {
+    "SWD(2022)145#p1-2-1": {
+     "verdict": "contextual",
+     "evidence_quote": "DEBRA in context of the Commission’s Strategic Foresight report",
+     "justification": "This is only a table-of-contents heading for the section; on its own it does not show foresight shaping the analysis."
+    },
+    "SWD(2022)145#p1-20-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the DEBRA initiative could be expected to contribute positively to three of the ten areas identified in the EU’s 2021 Strategic Foresight Report",
+     "justification": "The Strategic Foresight Report is used to frame/justify DEBRA's anticipated benefits against pre-existing SFR priority areas, not to shape DEBRA's problem definition, baseline or options."
+    },
+    "SWD(2022)145#p1-20-2": {
+     "verdict": "contextual",
+     "evidence_quote": "the DEBRA initiative could be expected to contribute positively to three of the ten areas identified in the EU’s 2021 Strategic Foresight Report",
+     "justification": "The Strategic Foresight Report is used to frame/justify DEBRA's anticipated benefits against pre-existing SFR priority areas, not to shape DEBRA's problem definition, baseline or options."
+    },
+    "SWD(2022)145#p1-20-3": {
+     "verdict": "contextual",
+     "evidence_quote": "the DEBRA initiative could be expected to contribute positively to three of the ten areas identified in the EU’s 2021 Strategic Foresight Report",
+     "justification": "The Strategic Foresight Report is used to frame/justify DEBRA's anticipated benefits against pre-existing SFR priority areas, not to shape DEBRA's problem definition, baseline or options."
+    },
+    "SWD(2022)145#p1-20-4": {
+     "verdict": "contextual",
+     "evidence_quote": "the DEBRA initiative could be expected to contribute positively to three of the ten areas identified in the EU’s 2021 Strategic Foresight Report",
+     "justification": "The Strategic Foresight Report is used to frame/justify DEBRA's anticipated benefits against pre-existing SFR priority areas, not to shape DEBRA's problem definition, baseline or options."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "A dedicated subsection ('2.4 DEBRA in context of the Commission's Strategic Foresight report') argues the initiative aligns with SFR priority areas, but this reads as ex-post framing of an already-defined tax initiative rather than the SFR shaping DEBRA's problem definition or options; treated conservatively as contextual."
+  },
+  "SWD(2022)167": {
+   "mention_verdicts": {
+    "SWD(2022)167#p1-30-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the cost of these environmental challenges is estimated at EUR 3.5-18.5 trillion per year in ecosystem services from 1997 to 2011",
+     "justification": "This is a single citation of a cost figure sourced from the SFR used as background evidence, not a description of foresight methods shaping the assessment's own analysis."
+    },
+    "SWD(2022)167#p2-43-1": {
+     "verdict": "embedded",
+     "evidence_quote": "foresight studies on the development of key socio-economic trends such as urbanisation and rural depopulation as well as on key economic sectors such as agriculture and forestry",
+     "justification": "Foresight studies are listed as one of the evidence sources actually used to build the baseline assessments that fed into screening restoration target options."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "foresight studies on socio-economic trends (used in ecosystem-restoration baseline assessments)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Foresight studies on urbanisation, rural depopulation and key economic sectors were used alongside other evidence sources to build the baseline assessments underlying the screening of ecosystem-restoration target options.",
+   "notes": ""
+  },
+  "SWD(2022)170": {
+   "mention_verdicts": {
+    "SWD(2022)170#p1-7-1": {
+     "verdict": "embedded",
+     "evidence_quote": "accompanying this impact assessment highlighted the complex landscape surrounding pesticide use and confirmed the diverse and polarised views among stakeholders",
+     "justification": "A foresight study accompanying this specific impact assessment is described as having actually informed its problem-definition narrative."
+    },
+    "SWD(2022)170#p1-8-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The foresight study accompanying this impact assessment explored possible future scenarios on the use of pesticides considered to represent plausible scenarios",
+     "justification": "The foresight study's scenario analysis is described as feeding directly into this IA's own problem-definition and policy-context discussion."
+    },
+    "SWD(2022)170#p1-79-1": {
+     "verdict": "embedded",
+     "evidence_quote": "A supplementary foresight-on-demand studyccxix on future vision scenarios on the sustainable use of pesticides was contracted, commencing in March 2021 and concluding in October 2021",
+     "justification": "Describes the actual commissioning of a dedicated foresight-on-demand study as part of this IA's evidence-gathering process."
+    },
+    "SWD(2022)170#p1-82-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Relevant findings of the supplementary Foresight study on future scenarios on the sustainable use of pesticides which informed the overall analysis have also been outlined in the staff working document",
+     "justification": "The Commission's own response to the RSB confirms the foresight study's findings informed the overall analysis, a direct statement of embedded use."
+    },
+    "SWD(2022)170#p1-82-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Relevant findings of the supplementary Foresight study on future scenarios on the sustainable use of pesticides which informed the overall analysis have also been outlined in the staff working document",
+     "justification": "Repeats the explicit statement that the foresight study's findings informed the overall analysis of this impact assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "foresight-on-demand study (future scenarios on sustainable use of pesticides)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "A foresight-on-demand study exploring future scenarios for pesticide use was specifically commissioned for this impact assessment, and the Commission's response to the RSB confirms its findings informed the overall analysis.",
+   "notes": "One of the clearest embedded cases in this batch: the foresight study is both commissioned specifically for this IA and explicitly confirmed (via the RSB response) to have informed the analysis."
+  },
+  "SWD(2022)289": {
+   "mention_verdicts": {
+    "SWD(2022)289#p1-12-1": {
+     "verdict": "contextual",
+     "evidence_quote": "In the context of global megatrends such as climate change and pressure on democratic models of governance and values as identified by Strategic Foresight reports",
+     "justification": "This is a background citation of SFR megatrends to motivate the general crisis scenario, not a description of foresight methods shaping this IA's own analysis."
+    },
+    "SWD(2022)289#p1-12-2": {
+     "verdict": "contextual",
+     "evidence_quote": "39 2021 Strategic Foresight report, https://ec.europa.eu/info/sites/default/files/strategic_foresight_report_2021_en.pdf.",
+     "justification": "This is a bare footnote citation to the SFR supporting a background sentence about possible future crises, not a use of foresight methods in the analysis."
+    },
+    "SWD(2022)289#p1-12-3": {
+     "verdict": "contextual",
+     "evidence_quote": "39 2021 Strategic Foresight report, https://ec.europa.eu/info/sites/default/files/strategic_foresight_report_2021_en.pdf.",
+     "justification": "Duplicate window of the same footnote citation; background context only."
+    },
+    "SWD(2022)289#p1-33-1": {
+     "verdict": "contextual",
+     "evidence_quote": "gathering foresight, data analysis and market intelligence, as well as fostering continuous exchanges of information between the Commission and Member States to build a common analysis",
+     "justification": "‘Foresight’ here names a proposed future monitoring task of the new governance body rather than a specific foresight product or method that shaped this IA's own analysis; ambiguous, so treated conservatively as contextual."
+    },
+    "SWD(2022)289#p1-51-1": {
+     "verdict": "contextual",
+     "evidence_quote": "better foresight and anticipation to manage a Single Market emergency when it strikes",
+     "justification": "Generic use of 'foresight' as a benefit of contingency planning, not a specific foresight method or study feeding the analysis."
+    },
+    "SWD(2022)289#p1-60-1": {
+     "verdict": "contextual",
+     "evidence_quote": "there would be better foresight and anticipation to manage a Single Market emergency when it strikes",
+     "justification": "Same generic usage describing an expected benefit of Policy Option 2, not a foresight method used in the assessment."
+    },
+    "SWD(2022)289#p1-137-1": {
+     "verdict": "contextual",
+     "evidence_quote": "CSF is a foresight department whose mission is to position the Singapore government to navigate emerging strategic challenges and harness potential opportunities",
+     "justification": "This describes a foreign country's foresight institution cited as a comparative governance example (benchmarking annex), not the EU's own foresight work shaping this IA's analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "unclear",
+   "influence_how": "It is unclear whether 'foresight' as a proposed ongoing task of the Single Market Emergency Instrument's vigilance-mode governance body (informed by comparisons to bodies like Singapore's Centre for Strategic Futures) was intended as an operational design element or is aspirational language; no mention shows a specific foresight product actually shaping the problem definition, baseline or options.",
+   "notes": "Several mentions use 'foresight' generically for future monitoring/anticipation functions or cite SFR megatrends as background; genuinely ambiguous, so treated conservatively as contextual at the mention level."
+  },
+  "SWD(2022)30": {
+   "mention_verdicts": {
+    "SWD(2022)30#p1-5-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the Commission Strategic Foresight report9 identifies digital hyper-connectivity and technological transformation as one of the prevalent megatrends of the next half century",
+     "justification": "This cites the 2021 Strategic Foresight Report's 'digital hyperconnectivity' megatrend as background political/strategic motivation for the secure connectivity programme, not as a method shaping this IA's own analysis."
+    },
+    "SWD(2022)30#p1-5-2": {
+     "verdict": "contextual",
+     "evidence_quote": "9 Strategic_Foresight_Report_2021_en.pdf (europa.eu)",
+     "justification": "Bare footnote citation to the 2021 SFR supporting background context on connectivity needs."
+    },
+    "SWD(2022)30#p1-6-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The 2021 Strategic Foresight Report22 identifies Digital hyperconnectivity as ‘driving the transformation. It results in an increased convergence of industries, products, technologies and services.’",
+     "justification": "This cites the 2021 Strategic Foresight Report's 'digital hyperconnectivity' megatrend as background political/strategic motivation for the secure connectivity programme, not as a method shaping this IA's own analysis."
+    },
+    "SWD(2022)30#p1-6-2": {
+     "verdict": "contextual",
+     "evidence_quote": "22 Strategic_Foresight_Report_2021_en.pdf (europa.eu)",
+     "justification": "Bare footnote citation repeating the SFR reference used for political-context motivation only."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All four mentions cite the 2021 Strategic Foresight Report's digital-hyperconnectivity megatrend as background political/strategic context for the Secure Connectivity Programme; none show the SFR's own methods shaping this IA's problem definition, baseline or options."
+  },
+  "SWD(2022)319": {
+   "mention_verdicts": {
+    "SWD(2022)319#p1-5-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Due to this forward-looking perspective of the AI liability initiative, a strategic foresight approach underlies the problem definition, policy objectives and policy options.",
+     "justification": "The IA explicitly states a strategic foresight approach underlies its problem definition, objectives and options, directly meeting the embedded definition."
+    },
+    "SWD(2022)319#p1-5-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Due to this forward-looking perspective of the AI liability initiative, a strategic foresight approach underlies the problem definition, policy objectives and policy options.",
+     "justification": "The IA explicitly states a strategic foresight approach underlies its problem definition, objectives and options, directly meeting the embedded definition."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "strategic foresight approach (megatrend analysis)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The IA states directly that a strategic foresight approach, built around the 'accelerating technological change and hyper-connectivity' megatrend, underlies its problem definition, policy objectives and policy options for AI liability rules.",
+   "notes": ""
+  },
+  "SWD(2022)368": {
+   "mention_verdicts": {
+    "SWD(2022)368#p1-11-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Such perfect foresight is impossible for the user.",
+     "justification": "This is ordinary-language use of 'foresight' describing a consumer's inability to predict future repair needs, unrelated to foresight methodology or reports."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "The only mention uses 'foresight' colloquially in an economic argument about consumers' imperfect information, with no connection to foresight methods or reports."
+  },
+  "SWD(2022)414": {
+   "mention_verdicts": {
+    "SWD(2022)414#p1-27-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission. (2021). Strategic Foresight Report: The EU’s capacity and freedom to act.",
+     "justification": "This is a bare footnote citation to the 2021 Strategic Foresight Report supporting a general remark on the EU's future economic performance; no elaboration shows it shaping this fee-regulation IA's analysis."
+    },
+    "SWD(2022)414#p1-27-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission. (2021). Strategic Foresight Report: The EU’s capacity and freedom to act.",
+     "justification": "This is a bare footnote citation to the 2021 Strategic Foresight Report supporting a general remark on the EU's future economic performance; no elaboration shows it shaping this fee-regulation IA's analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Both mentions are the same footnote citation to the 2021 Strategic Foresight Report, used to support a general background remark; bibliography-style use only."
+  },
+  "SWD(2022)435": {
+   "mention_verdicts": {
+    "SWD(2022)435#p1-24-1": {
+     "verdict": "contextual",
+     "evidence_quote": "monitored by the European Commission for foresight exercises",
+     "justification": "This is background/glossary text explaining what 'megatrends' are and that they are monitored via Commission foresight exercises; it defines a term rather than showing foresight shaping this IA's own analysis."
+    },
+    "SWD(2022)435#p2-98-1": {
+     "verdict": "contextual",
+     "evidence_quote": "monitored by the European Commission and regularly used in foresight exercises",
+     "justification": "This is background/glossary text explaining what 'megatrends' are and that they are monitored via Commission foresight exercises; it defines a term rather than showing foresight shaping this IA's own analysis."
+    },
+    "SWD(2022)435#p2-98-2": {
+     "verdict": "contextual",
+     "evidence_quote": "monitored by the European Commission and regularly used in foresight exercises",
+     "justification": "This is background/glossary text explaining what 'megatrends' are and that they are monitored via Commission foresight exercises; it defines a term rather than showing foresight shaping this IA's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All three mentions are footnote/glossary text defining 'megatrends' and noting they are monitored via Commission foresight exercises; used as background definition, not shown to shape this chemicals-labelling IA's own analysis."
+  },
+  "SWD(2022)540": {
+   "mention_verdicts": {
+    "SWD(2022)540#p1-236-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission Competence Centre on Foresight. Developments and Forecasts on Continuing Urbanisation.",
+     "justification": "This is a numbered bibliography entry in a reference list; bibliography-only mentions default to contextual regardless of the cited work's substance."
+    },
+    "SWD(2022)540#p1-236-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission Competence Centre on Foresight. Developments and Forecasts on Continuing Urbanisation.",
+     "justification": "This is a numbered bibliography entry in a reference list; bibliography-only mentions default to contextual regardless of the cited work's substance."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Both mentions are the same numbered bibliography reference (item 106) in a long reference list; a clear bibliography-only, contextual case."
+  },
+  "SWD(2022)721": {
+   "mention_verdicts": {
+    "SWD(2022)721#p1-25-1": {
+     "verdict": "contextual",
+     "evidence_quote": "foster data driven decision-making, foresight and participatory processes",
+     "justification": "Foresight is named as a downstream benefit the interoperability policy would help enable, not a method or study that shaped this IA's own analysis."
+    },
+    "SWD(2022)721#p1-25-2": {
+     "verdict": "contextual",
+     "evidence_quote": "foster data driven decision-making, foresight and participatory processes",
+     "justification": "Duplicate of the same passage describing foresight as an expected policy benefit rather than an input to this IA's analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Mentions describe foresight as a general benefit the interoperability policy would help foster, and cite the 2020 SFR's definition of 'digital resilience'; neither shows foresight work shaping this IA's own analysis."
+  },
+  "SWD(2022)82": {
+   "mention_verdicts": {
+    "SWD(2022)82#p1-11-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p1-11-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p1-18-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p1-18-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-17-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-17-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-45-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-45-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-46-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    },
+    "SWD(2022)82#p3-46-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight on Critical Raw Materials for European Industry, March 2020",
+     "justification": "This is a repeated footnote citation supporting factual claims about critical raw materials/recycling; used as a source reference, not discussed as shaping this ecodesign IA's own options."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All ten mentions are the same repeated footnote citation to a 2020 foresight report on critical raw materials, supporting factual statements about resource use/recycling; consistently bibliography-style, contextual use."
+  },
+  "SWD(2023)11": {
+   "mention_verdicts": {
+    "SWD(2023)11#p1-29-1": {
+     "verdict": "contextual",
+     "evidence_quote": "SO4 emerges as a foresight requirement for a new legal framework to minimise the risk of accumulating such critical gaps again quickly in the future",
+     "justification": "‘Foresight requirement’ is used as a general forward-looking adjective for a specific objective, with no reference to any specific foresight study, report or method."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "The single mention uses 'foresight' generically to describe a forward-looking specific objective (SO4), with no specific foresight method or product identified as having shaped the analysis."
+  },
+  "SWD(2023)114": {
+   "mention_verdicts": {
+    "SWD(2023)114#p1-22-1": {
+     "verdict": "contextual",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/megatrends-engagement-tools_en",
+     "justification": "Bare footnote citation to the Commission's megatrends-engagement-tools webpage; not discussed or elaborated on in the surrounding prose about detergent labelling problem drivers."
+    },
+    "SWD(2023)114#p1-29-1": {
+     "verdict": "contextual",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/megatrends-engagement-tools_en",
+     "justification": "Bare footnote citation to the Commission's megatrends-engagement-tools webpage; not discussed or elaborated on in the surrounding prose about detergent labelling problem drivers."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Both mentions are bare footnote citations to the Commission's megatrends-engagement-tools webpage, unconnected in the visible text to any specific analysis performed in this IA."
+  },
+  "SWD(2023)128": {
+   "mention_verdicts": {
+    "SWD(2023)128#p1-3-1": {
+     "verdict": "contextual",
+     "evidence_quote": "2.3.3 Foresight",
+     "justification": "This is only a table-of-contents line for the Foresight subsection; on its own the excerpt does not show foresight methods being used."
+    },
+    "SWD(2023)128#p1-28-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Megatrends113 and strategic foresight report findings114 are used throughout the problem definition, baseline, policy objectives and options sections of the document",
+     "justification": "Explicit statement that foresight tools and SFR findings are used throughout the problem definition, baseline and options of this IA."
+    },
+    "SWD(2023)128#p1-28-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Megatrends113 and strategic foresight report findings114 are used throughout the problem definition, baseline, policy objectives and options sections of the document",
+     "justification": "Same explicit statement of foresight use throughout the IA's core analytical sections."
+    },
+    "SWD(2023)128#p1-28-3": {
+     "verdict": "embedded",
+     "evidence_quote": "Moreover, the 2022 Strategic Foresight Report points to the potential of future digital technologies to render road transport more efficient and sustainable",
+     "justification": "The 2022 SFR's findings are used to reason about future digital-technology impacts within the problem-evolution analysis."
+    },
+    "SWD(2023)128#p1-28-4": {
+     "verdict": "embedded",
+     "evidence_quote": "Another megatrend that impacts how the problems will likely evolve is “Shifting health challenges”",
+     "justification": "A specific megatrend is used to analyse how the road-safety problem is expected to evolve, part of the IA's own problem-evolution reasoning."
+    },
+    "SWD(2023)128#p1-28-5": {
+     "verdict": "embedded",
+     "evidence_quote": "Another megatrend that impacts how the problems will likely evolve is “Shifting health challenges”. As Europeans are living longer and healthier lives, the challenges that come with it affect their fitness to drive at different ages",
+     "justification": "Megatrend analysis is applied directly to reasoning about how the driver-fitness problem will evolve, part of the IA's own analysis."
+    },
+    "SWD(2023)128#p1-28-6": {
+     "verdict": "embedded",
+     "evidence_quote": "Another megatrend that impacts how the problems will likely evolve is “Shifting health challenges”",
+     "justification": "Continuation of megatrend-based problem-evolution reasoning used directly in this IA."
+    },
+    "SWD(2023)128#p1-32-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends124 (see section 2.3.3) and developments captured in the 2022 Strategic Foresight Report",
+     "justification": "Explicit statement that the baseline scenario itself incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)128#p1-32-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends124 (see section 2.3.3) and developments captured in the 2022 Strategic Foresight Report",
+     "justification": "Same explicit statement that foresight megatrends were built into the baseline scenario used to assess policy options."
+    },
+    "SWD(2023)128#p1-32-3": {
+     "verdict": "embedded",
+     "evidence_quote": "124 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore 125 COM(2022) 289 final.",
+     "justification": "Footnotes supporting the baseline paragraph that explicitly incorporates foresight megatrends into the projected fatalities/injuries baseline used to compare policy options."
+    },
+    "SWD(2023)128#p1-41-1": {
+     "verdict": "embedded",
+     "evidence_quote": "As the analysis covers a long-term future, it incorporates foresight analysis described in section 2.3.3 and in the baseline section",
+     "justification": "Direct statement that the economic-impact analysis of the policy options incorporates the foresight analysis described elsewhere in the IA."
+    },
+    "SWD(2023)128#p1-57-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the initiative’s objective to increase the uptake of mobile driving licences is also likely to spur the twinning between the digital and green transitions",
+     "justification": "The 2022 SFR's digital-green twinning concept is used to support a specific conclusion about the initiative's environmental impact."
+    },
+    "SWD(2023)128#p1-57-2": {
+     "verdict": "contextual",
+     "evidence_quote": "183 https://ec.europa.eu/info/strategy/strategic-planning/strategic-foresight/2022-strategic-foresight-report_en",
+     "justification": "This is a bare footnote citation within a paragraph comparing policy-option effectiveness; the visible text itself does not discuss foresight content."
+    },
+    "SWD(2023)128#p1-57-3": {
+     "verdict": "contextual",
+     "evidence_quote": "183 https://ec.europa.eu/info/strategy/strategic-planning/strategic-foresight/2022-strategic-foresight-report_en",
+     "justification": "Same bare footnote citation, incidental to a paragraph about comparative policy-option effectiveness."
+    },
+    "SWD(2023)128#p1-63-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Considering the foresight megatrend “Accelerating technological change and hyperconnectivity”, the need to hold a driving licence is expected to become obsolete when full automation will be in place",
+     "justification": "A specific foresight megatrend is used directly to reason about a policy-relevant conclusion (future obsolescence of driving licences under automation)."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends analysis",
+    "Strategic Foresight Report findings (2022 SFR)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "A dedicated 'Foresight' subsection states that megatrends and Strategic Foresight Report findings are used throughout the problem definition, baseline, objectives and options; specific applications include using the automation megatrend to judge future licence obsolescence and building foresight megatrends into the baseline fatality/injury projections used to compare policy options.",
+   "notes": "One of the clearest embedded cases in this batch: an explicit dedicated methodology subsection describes foresight use across every stage of the assessment."
+  },
+  "SWD(2023)137": {
+   "mention_verdicts": {
+    "SWD(2023)137#p1-25-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout its dimensions relevant foresight tools. It does so to build a robust, future-proof evidence base for its likely impact. The baseline therefore incorporates foresight Megatrends60 and developments captured in the 2022 Strategic Foresight report61",
+     "justification": "Explicit statement that foresight tools and the 2022 SFR's megatrends were built into the baseline scenario used to assess this IA's policy options."
+    },
+    "SWD(2023)137#p1-25-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout its dimensions relevant foresight tools. It does so to build a robust, future-proof evidence base for its likely impact. The baseline therefore incorporates foresight Megatrends60 and developments captured in the 2022 Strategic Foresight report61",
+     "justification": "Explicit statement that foresight tools and the 2022 SFR's megatrends were built into the baseline scenario used to assess this IA's policy options."
+    },
+    "SWD(2023)137#p1-25-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout its dimensions relevant foresight tools. It does so to build a robust, future-proof evidence base for its likely impact. The baseline therefore incorporates foresight Megatrends60 and developments captured in the 2022 Strategic Foresight report61",
+     "justification": "Explicit statement that foresight tools and the 2022 SFR's megatrends were built into the baseline scenario used to assess this IA's policy options."
+    },
+    "SWD(2023)137#p1-25-4": {
+     "verdict": "embedded",
+     "evidence_quote": "Another megatrend that specifically impacts how the problems will likely evolve is “Shifting health challenges”",
+     "justification": "Continuation of the same foresight-megatrend-based baseline/problem-evolution reasoning used directly in this IA."
+    },
+    "SWD(2023)137#p1-25-5": {
+     "verdict": "embedded",
+     "evidence_quote": "the projected transport activity draws on the long-term population projections from Eurostat and GDP growth from the Ageing Report",
+     "justification": "Part of the same passage describing how foresight megatrends and demographic projections were built into this IA's baseline."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends analysis",
+    "Strategic Foresight Report findings (2022 SFR)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The analysis states it 'incorporates throughout its dimensions relevant foresight tools' and that the baseline explicitly incorporates foresight megatrends and 2022 Strategic Foresight Report developments (e.g. transport demand growth, shifting health challenges) used to assess the policy options.",
+   "notes": ""
+  },
+  "SWD(2023)140": {
+   "mention_verdicts": {
+    "SWD(2023)140#p1-11-1": {
+     "verdict": "embedded",
+     "evidence_quote": "A foresight report published in 2020 elaborated four scenarios of how customs in the European Union could look in 2040",
+     "justification": "The IA describes background work that 'will feed the initiative': a foresight report whose scenarios directly shaped the Customs Action Plan discussed throughout the assessment."
+    },
+    "SWD(2023)140#p1-11-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The Commission adopted the Customs Action Plan (CAP) (26) as its response to the foresight report and to implement the political guidelines of President von der Leyen",
+     "justification": "Explicit statement that the Customs Action Plan, which forms this IA's dynamic baseline, was adopted directly as a response to the foresight report."
+    },
+    "SWD(2023)140#p1-11-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The Commission adopted the Customs Action Plan (CAP) (26) as its response to the foresight report",
+     "justification": "Repeats the direct causal link between the foresight report and the Customs Action Plan underlying this IA's baseline."
+    },
+    "SWD(2023)140#p1-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The trends identified in the foresight report affecting the work of customs in 2040, such as larger trade volumes, increasingly complex non-customs regulatory environment for products, growing use of technology and enlarged access to, use and analysis of data implying new skills for customs officers, do not align with the current capacity of customs",
+     "justification": "Foresight-report trends are used directly to argue that current customs capacity is insufficient, part of this IA's problem-definition reasoning."
+    },
+    "SWD(2023)140#p1-72-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The option addresses the challenges identified by the wise persons group and is future proof, in line with the foresight report",
+     "justification": "The foresight report is used explicitly to justify why the preferred policy option (centralised EU Customs Authority) is future-proof."
+    },
+    "SWD(2023)140#p1-82-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the introduction explains better how the customs action plan is a first follow-up to the foresight report",
+     "justification": "Confirms the Customs Action Plan, forming this IA's baseline, is explicitly described as a follow-up to the foresight report."
+    },
+    "SWD(2023)140#p1-82-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The CAP, as a first follow-up to the 2040 foresight report, assessed that the 2016 UCC reform is needed but insufficient for addressing current and emerging challenges",
+     "justification": "The foresight report's role in shaping the CAP baseline and the case for reform is stated directly."
+    },
+    "SWD(2023)140#p1-87-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Foresight report on the future of Customs in 2040 (111)",
+     "justification": "Listed among the evidence sources explicitly described as providing 'context and evidence for the initiative's underlying rationale', consistent with the report's substantive role shown elsewhere in this IA."
+    },
+    "SWD(2023)140#p1-212-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The Commission’s Customs Action Plan (CAP) adopted by the College in 2020 identified a series of measures that are considered as “a first step towards achieving the vision generated in the foresight exercise”",
+     "justification": "Directly ties the Customs Action Plan (this IA's baseline) to a vision generated by the foresight exercise."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "foresight report ('The Future of Customs in the EU 2040', JRC)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "A 2020 foresight report elaborating four 2040 customs scenarios directly shaped the Customs Action Plan that forms this IA's dynamic baseline, and the preferred (centralised EU Customs Authority) option is explicitly described as 'in line with the foresight report' and addressing challenges the report identified.",
+   "notes": "Alongside SWD(2023)128 and SWD(2023)159, one of the clearest embedded cases: an explicit, repeated causal chain from foresight report to CAP baseline to preferred option."
+  },
+  "SWD(2023)155": {
+   "mention_verdicts": {
+    "SWD(2023)155#p1-50-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis of impacts also includes a foresight component as the baseline against which the policy options are assessed took into account the future demographic changes in the EU (aging of the population and increasing mobility) and the likelihood that other non-EU States join the Convention in the future",
+     "justification": "Explicit statement that a foresight component (future demographic and accession projections) was built into the baseline against which the policy options were assessed."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "foresight component in baseline construction (demographic and accession projections)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The impact analysis explicitly states it 'includes a foresight component', with the baseline used to assess policy options built by taking into account future demographic changes and the likelihood of further accessions to the Convention.",
+   "notes": ""
+  },
+  "SWD(2023)159": {
+   "mention_verdicts": {
+    "SWD(2023)159#p1-26-1": {
+     "verdict": "embedded",
+     "evidence_quote": "According to the 2022 Strategic Foresight Report77, “enabling a greener transport sector with digital technologies” is one of the areas where the twinning of the green and digital transitions is expected to have a major effect",
+     "justification": "The 2022 SFR's findings are used directly within the 'How likely is the problem to persist?' analysis reasoning about future enforcement technology."
+    },
+    "SWD(2023)159#p1-32-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends88 and developments captured in the 2022 Strategic Foresight Report89",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)159#p1-32-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends88 and developments captured in the 2022 Strategic Foresight Report89",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)159#p1-32-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends88 and developments captured in the 2022 Strategic Foresight Report89",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)159#p1-32-4": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends88 and developments captured in the 2022 Strategic Foresight Report89",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)159#p1-32-5": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline considers the improvements in the effectiveness of using resources due to technological developments, drawing on the foresight megatrends described above",
+     "justification": "Foresight megatrends are explicitly used to derive a baseline assumption about surveillance-resource effectiveness."
+    },
+    "SWD(2023)159#p1-32-6": {
+     "verdict": "embedded",
+     "evidence_quote": "88 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore 89 COM(2022) 289 final. 90 DNV Group Research and Development (2022) Ocean’s Future to 2050",
+     "justification": "Footnotes to the same paragraph explicitly stating the baseline incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)159#p1-32-7": {
+     "verdict": "embedded",
+     "evidence_quote": "For the MARPOL Annexes that are currently in the scope of the SSP Directive (oil and noxious liquid substances in bulk) the baseline scenario foresees a relative stabilisation over time",
+     "justification": "Part of the same passage where foresight megatrends are used to derive baseline projections used to compare policy options."
+    },
+    "SWD(2023)159#p1-50-1": {
+     "verdict": "embedded",
+     "evidence_quote": "With accelerating technological development and hyperconnectivity of all systems, as acknowledged by the 2021 Strategic Foresight Report130, EMSA services are expected to change much faster in the coming decades and surveillance capacity to increase",
+     "justification": "The 2021 SFR's megatrend is used directly to justify a specific quantified assumption (higher future surveillance capacity and benefits)."
+    },
+    "SWD(2023)159#p1-50-2": {
+     "verdict": "embedded",
+     "evidence_quote": "With accelerating technological development and hyperconnectivity of all systems, as acknowledged by the 2021 Strategic Foresight Report130, EMSA services are expected to change much faster in the coming decades",
+     "justification": "Same use of the SFR megatrend to justify a quantified benefits assumption in the impacts analysis."
+    },
+    "SWD(2023)159#p1-66-1": {
+     "verdict": "embedded",
+     "evidence_quote": "It should include the effects of existing and upcoming relevant legislation, ongoing technological developments, recent geo-political events and insights from foresight",
+     "justification": "The RSB explicitly required insights from foresight to be built into the baseline, and the Commission's response confirms the baseline was revised accordingly."
+    },
+    "SWD(2023)159#p1-99-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Key global trends and megatrends The baseline also incorporates foresight megatrends175 and developments captured in the 2022 Strategic Foresight Report176",
+     "justification": "Direct statement, in the baseline/technology-assumptions section, that foresight megatrends were built into the baseline used to assess options."
+    },
+    "SWD(2023)159#p1-99-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends175 and developments captured in the 2022 Strategic Foresight Report176",
+     "justification": "Same explicit statement of foresight-informed baseline construction."
+    },
+    "SWD(2023)159#p1-99-3": {
+     "verdict": "embedded",
+     "evidence_quote": "Relevant to the SSP Directive revision, exploiting new technologies, such as the use of sensors to better monitor environmental performance is one of the key relevant challenges identified",
+     "justification": "Foresight-derived megatrend analysis is applied directly to identify a key challenge relevant to the SSP Directive revision."
+    },
+    "SWD(2023)159#p1-99-4": {
+     "verdict": "embedded",
+     "evidence_quote": "The ongoing technological developments would positively influence the baseline because the technological drive would make more digital solutions available on the market for detection and verification",
+     "justification": "Continuation of the foresight-megatrend-based baseline reasoning used directly in this IA."
+    },
+    "SWD(2023)159#p1-99-5": {
+     "verdict": "embedded",
+     "evidence_quote": "175 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore 176 COM(2022) 289 final. 177 2021 Strategic Foresight Report",
+     "justification": "Footnotes supporting the explicit statement that foresight megatrends and the 2022/2021 SFRs were built into this IA's baseline."
+    },
+    "SWD(2023)159#p1-99-6": {
+     "verdict": "embedded",
+     "evidence_quote": "The Baseline scenario assumes no further EU level intervention on ship-source pollution discharged to the sea beyond the current SSP Directive",
+     "justification": "Part of the same baseline-construction passage explicitly built on foresight megatrends described immediately above."
+    },
+    "SWD(2023)159#p1-106-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline considers the improvements in the effectiveness of using resources due to technological developments, drawing on foresight megatrends",
+     "justification": "Foresight megatrends are explicitly used as the basis for a baseline assumption about future surveillance effectiveness."
+    },
+    "SWD(2023)159#p1-129-1": {
+     "verdict": "embedded",
+     "evidence_quote": "From a strategic foresight perspective, such policy choice would not be future-proof due to the anticipated development of standards at the international level",
+     "justification": "A strategic-foresight perspective is used directly to argue against extending the Directive's scope to certain substances, shaping the screening of policy options."
+    },
+    "SWD(2023)159#p2-44-1": {
+     "verdict": "embedded",
+     "evidence_quote": "It should include the effects of existing and upcoming relevant legislation, ongoing technological developments, recent geo-political events and insights from foresight",
+     "justification": "Repeats the RSB requirement (and the Commission's confirmed response) that foresight insights be incorporated into the dynamic baseline of this IA."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends analysis",
+    "Strategic Foresight Report findings (2021 & 2022 SFR)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The baseline repeatedly and explicitly states it 'incorporates foresight megatrends and developments captured in the 2022 Strategic Foresight Report', and a strategic-foresight perspective is used directly to argue against extending the Directive's scope to certain pollutants, directly shaping the screening of policy options.",
+   "notes": "One of the most densely embedded IAs in this batch, with the RSB itself requiring 'insights from foresight' in the baseline and the Commission confirming this was done."
+  },
+  "SWD(2023)161": {
+   "mention_verdicts": {
+    "SWD(2023)161#p1-4-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Strategic raw materials (SRM) Raw materials defined as strategic according to the criteria established in the impact assessment, e.g. taking account foresight element and strategic applications",
+     "justification": "The glossary defines the new 'strategic raw materials' legal category using a foresight element as one of its core criteria, directly built into this IA's proposed option."
+    },
+    "SWD(2023)161#p1-6-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2020 list was accompanied by a foresight study on strategic raw materials for strategic value chains 2030-2050",
+     "justification": "Describes the foresight studies that accompany the criticality assessment underlying this IA's whole approach to defining critical/strategic raw materials."
+    },
+    "SWD(2023)161#p1-6-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2020 list was accompanied by a foresight study on strategic raw materials for strategic value chains 2030-2050",
+     "justification": "Same description of the foresight study underpinning the criticality-assessment methodology central to this IA."
+    },
+    "SWD(2023)161#p1-15-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2020 criticality assessment was accompanied by a 2030/2050 foresight analysis of critical raw materials used in strategic sectors and technologies",
+     "justification": "Describes the foresight analysis that forms part of the Commission's existing evidence base being built upon by this IA's policy options."
+    },
+    "SWD(2023)161#p1-15-2": {
+     "verdict": "contextual",
+     "evidence_quote": "48 European Commission, Critical materials for strategic technologies and sectors in the EU - a foresight study, 2020",
+     "justification": "This narrower window is essentially a footnote citation supporting a statement about monitoring gaps, without further elaboration of the foresight study's use."
+    },
+    "SWD(2023)161#p1-35-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the Commission currently performs the criticality assessment (described in detail below) and conducts a foresight exercise on critical raw materials used in strategic sectors and technologies",
+     "justification": "Sets up that the existing foresight exercise is a tool the IA's Approach 2 policy option is designed to build on."
+    },
+    "SWD(2023)161#p1-35-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Approach 2: Legal definition of only strategic raw materials based on multi-criteria analysis including supply and demand foresight and relevance for strategic applications",
+     "justification": "A specific policy option (Approach 2) is defined using supply/demand foresight as one of its explicit legal-definition criteria."
+    },
+    "SWD(2023)161#p1-35-3": {
+     "verdict": "embedded",
+     "evidence_quote": "This concept would take into account better the foresight perspective, and provide a stronger focus on applications considered strategic",
+     "justification": "The foresight perspective is explicitly built into the design of the proposed 'strategic raw materials' concept."
+    },
+    "SWD(2023)161#p1-116-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The foresight exercise meanwhile is currently limited to projecting demand for critical raw materials in strategic sectors and does not allow to identify which raw materials may become critical in the future or otherwise pose risks not reflected in the backward-looking criticality assessment",
+     "justification": "This describes the current, pre-reform limitations of the existing foresight exercise rather than showing it actively shaping this IA's own conclusions."
+    },
+    "SWD(2023)161#p1-116-2": {
+     "verdict": "contextual",
+     "evidence_quote": "The foresight exercise meanwhile is currently limited to projecting demand for critical raw materials in strategic sectors",
+     "justification": "Repeats the description of the existing foresight exercise's current limitations, background rather than active use."
+    },
+    "SWD(2023)161#p1-117-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Approach 2: Legal definition of only strategic raw materials based on multi-criteria analysis including supply and demand foresight and relevance for strategic applications",
+     "justification": "Confirms the specific policy option built directly around a foresight criterion for defining strategic raw materials."
+    },
+    "SWD(2023)161#p1-117-2": {
+     "verdict": "embedded",
+     "evidence_quote": "This concept would take into account better the foresight perspective, and provide a stronger focus on applications considered strategics",
+     "justification": "The foresight perspective is explicitly incorporated into the design of the proposed legal category."
+    },
+    "SWD(2023)161#p1-117-3": {
+     "verdict": "embedded",
+     "evidence_quote": "This concept would take into account better the foresight perspective",
+     "justification": "Repeats the explicit incorporation of a foresight perspective into the policy-option design."
+    },
+    "SWD(2023)161#p1-117-4": {
+     "verdict": "embedded",
+     "evidence_quote": "The joint foresight report of JRC and GROW (in preparation) on “Supply chain and future demands analysis of strategic technologies and sectors in the EU” should serve as the base for identifying the raw materials for the selected technologies",
+     "justification": "A specific forthcoming foresight report is explicitly designated as the base for identifying raw materials under this IA's proposed methodology."
+    },
+    "SWD(2023)161#p1-118-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Future EU demand (2030): based on the joint foresight report of JRC and GROW (in preparation) on “Supply chain and future demands analysis of strategic technologies and sectors in the EU”",
+     "justification": "A quantitative indicator in the proposed methodology is explicitly sourced from a specific foresight report."
+    },
+    "SWD(2023)161#p1-118-2": {
+     "verdict": "embedded",
+     "evidence_quote": "It would conduct foresight at different time horizons on EU and global demand and supply of all RMs (taking into account different technological scenarios and material efficiency/substitution possibilities, e.g. by assigning probability weights to the scenarios; for supply, taking into account current production and announced new projects)",
+     "justification": "Conducting foresight is written directly into the mandate of the proposed governance structure (Pillar C), part of this IA's own policy-option design."
+    },
+    "SWD(2023)161#p1-119-1": {
+     "verdict": "embedded",
+     "evidence_quote": "It would conduct foresight at different time horizons on EU and global demand and supply of all RMs",
+     "justification": "Repeats that conducting foresight is a designed function of the governance structure proposed under this IA's preferred approach."
+    },
+    "SWD(2023)161#p1-125-1": {
+     "verdict": "embedded",
+     "evidence_quote": "This work would contain an element of foresight and a focus on strategic applications of the materials monitored",
+     "justification": "Foresight is explicitly built into the design of the monitoring/risk-assessment pillar of the proposed policy option."
+    },
+    "SWD(2023)161#p1-159-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the JRC foresight report on Critical Raw Materials for Strategic Technologies and Sectors209 shows that, with the current state of technology, the accomplishment of EU targets for the rollout of batteries, fuel cells, wind turbines and photovoltaics would require multiples of the current demand",
+     "justification": "The JRC foresight report's demand projections are used directly as quantitative evidence in this IA's problem/impact analysis."
+    },
+    "SWD(2023)161#p1-159-2": {
+     "verdict": "embedded",
+     "evidence_quote": "the JRC foresight report on Critical Raw Materials for Strategic Technologies and Sectors209 shows that, with the current state of technology, the accomplishment of EU targets for the rollout of batteries, fuel cells, wind turbines and photovoltaics would require multiples of the current demand",
+     "justification": "Same direct use of JRC foresight-report demand projections as evidence in the analysis."
+    },
+    "SWD(2023)161#p1-160-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the aforementioned JRC foresight study216 identifies important dependencies of digital technologies including robotics, drones, 3D-printing, semiconductors and hard drives on critical raw materials",
+     "justification": "The JRC foresight study's findings on digital-technology dependencies are used directly as evidence in this IA's demand analysis."
+    },
+    "SWD(2023)161#p1-160-2": {
+     "verdict": "embedded",
+     "evidence_quote": "the aforementioned JRC foresight study216 identifies important dependencies of digital technologies including robotics, drones, 3D-printing, semiconductors and hard drives on critical raw materials",
+     "justification": "Repeats the direct evidentiary use of the JRC foresight study's findings."
+    },
+    "SWD(2023)161#p1-160-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The exponentially growing number of chips and devices produced each year suggest that the digital sector could become a driving force for some critical raw materials",
+     "justification": "Continuation of the analysis built directly on the JRC foresight study's findings about digital-sector demand."
+    },
+    "SWD(2023)161#p1-161-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the JRC foresight report provides an assessment of the raw materials dependencies of the defence and aerospace sector: “As with many other economic sectors, the EU defence industry relies on the use of a wide range of materials with unique properties",
+     "justification": "A substantive quoted finding from the JRC foresight report is used directly as evidence on defence/aerospace raw-material dependencies."
+    },
+    "SWD(2023)161#p1-161-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Quoted following EC, 2020. Critical materials for strategic technologies and sectors in the EU - a foresight study.",
+     "justification": "This is a bare footnote citation supporting a specific statistic, without further elaboration in this excerpt of how the study's analysis was used."
+    },
+    "SWD(2023)161#p1-161-3": {
+     "verdict": "contextual",
+     "evidence_quote": "Quoted following EC, 2020. Critical materials for strategic technologies and sectors in the EU - a foresight study.",
+     "justification": "Repeats the same bare footnote citation pattern."
+    },
+    "SWD(2023)161#p1-161-4": {
+     "verdict": "contextual",
+     "evidence_quote": "221 Joint foresight report of JRC and GROW (update in preparation).",
+     "justification": "Bare footnote citation to a forthcoming joint foresight report, without elaboration in this specific excerpt."
+    },
+    "SWD(2023)161#p1-162-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Figure 3 (left), for example, shows the size of the electric vehicle/plug-in hybrid electric vehicle fleets assumed in the low-, medium- and high-demand scenarios of the JRC foresight study",
+     "justification": "Scenario data from the JRC foresight study is used directly to produce a figure supporting this IA's demand analysis."
+    },
+    "SWD(2023)161#p1-162-2": {
+     "verdict": "contextual",
+     "evidence_quote": "229 JRC (2020): Critical materials for strategic technologies and sectors in the EU - a foresight study.",
+     "justification": "Bare footnote citation to the foresight study underlying the figure discussed in the adjacent (separately coded) mention."
+    },
+    "SWD(2023)161#p1-163-1": {
+     "verdict": "contextual",
+     "evidence_quote": "230 Left: Page 21 of JRC foresight report; right: Page 52 of IEA (2021): Clean Energy Minerals.",
+     "justification": "This is a page-reference footnote citation rather than a discussion of the foresight report's analysis."
+    },
+    "SWD(2023)161#p1-174-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The critical raw materials assessment included in 2020 a foresight analysis for strategic sectors and technologies287. A 2023 update is expected to expand the list of technologies. This provides forecast insights into the associated demands for raw materials",
+     "justification": "States directly that the foresight analysis provides forecast insights feeding this IA's demand analysis."
+    },
+    "SWD(2023)161#p1-174-2": {
+     "verdict": "embedded",
+     "evidence_quote": "the JRC foresight study on critical raw materials in strategic sectors and technologies provides demand forecasts but no analysis of supply developments",
+     "justification": "Confirms the JRC foresight study's demand forecasts are used as evidence in this IA's analysis, while noting a scope limitation (no supply-side analysis)."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "JRC/GROW foresight study on critical raw materials for strategic technologies and sectors",
+    "criticality assessment with a foresight component"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The proposed 'strategic raw materials' policy option (Approach 2) is explicitly defined using a foresight criterion (supply/demand foresight and relevance to strategic applications), a forthcoming joint JRC/GROW foresight report is designated as the base for identifying raw materials under that option, and the existing JRC foresight study's demand projections for batteries, defence/aerospace and digital technologies are used directly as evidence in the problem/impacts analysis.",
+   "notes": "The richest and most substantively embedded IA in this batch: foresight is both an evidentiary input (JRC demand projections) and a designed criterion of the preferred policy option itself."
+  },
+  "SWD(2023)165": {
+   "mention_verdicts": {
+    "SWD(2023)165#p1-22-1": {
+     "verdict": "embedded",
+     "evidence_quote": "According to the 2022 Strategic Foresight Report64, “enabling a greener transport sector with digital technologies” is one of the areas where the twinning of the green and digital transitions is expected to have a major effect",
+     "justification": "The 2022 SFR's findings are used directly to reason about future digitalisation reducing the problem this IA addresses."
+    },
+    "SWD(2023)165#p1-26-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends73 and developments captured in the 2022 Strategic Foresight Report74",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)165#p1-26-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline incorporates foresight megatrends73 and developments captured in the 2022 Strategic Foresight Report74",
+     "justification": "Explicit statement that the baseline scenario used to assess this IA's policy options incorporates foresight megatrends and 2022 SFR developments."
+    },
+    "SWD(2023)165#p1-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2022 Strategic Foresight Report also reconfirms the existing megatrends identified in the 2021 Strategic Foresight Report",
+     "justification": "Continuation of the same baseline-construction passage explicitly built on foresight megatrends and SFR developments."
+    },
+    "SWD(2023)165#p1-27-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Relevant to the FSD revision are the use of digital ship related certificates and documents using and developing IT tools",
+     "justification": "Part of the same foresight-megatrend-informed baseline discussion applied directly to this IA's subject matter."
+    },
+    "SWD(2023)165#p1-27-3": {
+     "verdict": "contextual",
+     "evidence_quote": "73 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This window is centred on the policy-measure screening methodology, with the foresight reference appearing only as an incidental footnote."
+    },
+    "SWD(2023)165#p1-27-4": {
+     "verdict": "contextual",
+     "evidence_quote": "73 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "Same incidental footnote within a paragraph focused on policy-measure screening rather than foresight content."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends analysis",
+    "Strategic Foresight Report findings (2022 SFR)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The baseline explicitly states it 'incorporates foresight megatrends and developments captured in the 2022 Strategic Foresight Report' (e.g. transport demand growth, digital-green twinning), and the 2022 SFR is used directly to reason about future digitalisation reducing ship-source pollution enforcement problems.",
+   "notes": ""
+  },
+  "SWD(2023)192": {
+   "mention_verdicts": {
+    "SWD(2023)192#p2-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "confirmed by some of the megatrends identified by the EU Joint Research Centre",
+     "justification": "JRC megatrends (a foresight output) are used directly to confirm the persistence of the problem being assessed."
+    },
+    "SWD(2023)192#p2-27-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight is the discipline of exploring, anticipating and shaping the future to help building and using collective intelligence in a structured, and systemic way to anticipate developments.",
+     "justification": "This occurrence is a definitional footnote explaining what foresight is, not a demonstration of foresight being applied in the analysis."
+    },
+    "SWD(2023)192#p2-27-3": {
+     "verdict": "contextual",
+     "evidence_quote": "Strategic foresight seeks to embed foresight into EU policy-making.",
+     "justification": "Same definitional footnote text; background explanation rather than evidence of use in this assessment's own analysis."
+    },
+    "SWD(2023)192#p2-27-4": {
+     "verdict": "contextual",
+     "evidence_quote": "The Megatrends Hub, https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore.",
+     "justification": "This occurrence falls within the same footnote link/definition, a reference rather than an analytical use."
+    },
+    "SWD(2023)192#p2-27-5": {
+     "verdict": "contextual",
+     "evidence_quote": "The Megatrends Hub, https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore.",
+     "justification": "Duplicate footnote occurrence; still just a reference link, not an analytical claim."
+    },
+    "SWD(2023)192#p2-27-6": {
+     "verdict": "contextual",
+     "evidence_quote": "The Megatrends Hub, https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore.",
+     "justification": "Duplicate footnote occurrence within the same definitional note; not itself evidence of use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "JRC Megatrends Hub"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The persistence of the health R&D problem is explicitly said to be confirmed by megatrends identified by the JRC as part of its foresight activities, feeding into the problem-definition section; the remaining mentions are all part of one definitional footnote about what foresight is.",
+   "notes": "Six mentions cluster on one page: one substantive sentence plus five occurrences within the same explanatory footnote/URL, which is why most are contextual."
+  },
+  "SWD(2023)204": {
+   "mention_verdicts": {
+    "SWD(2023)204#p1-7-1": {
+     "verdict": "contextual",
+     "evidence_quote": "a key element of the Commission Strategic Foresight",
+     "justification": "The Strategic Foresight report is invoked only to back the general framing of the green transition, not used as an analytical input to this IA."
+    },
+    "SWD(2023)204#p1-7-2": {
+     "verdict": "contextual",
+     "evidence_quote": "17 Commission Strategi Foresight Report 2022",
+     "justification": "This is a footnote citation of the Strategic Foresight Report, offering no evidence it was used in the assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2023)256": {
+   "mention_verdicts": {
+    "SWD(2023)256#p1-21-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Critical materials for strategic technologies and sectors in the EU - a foresight study, 2020",
+     "justification": "This is a footnote citation among many sources supporting a background statement, not shown to be used in this IA's own analysis."
+    },
+    "SWD(2023)256#p4-108-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Bobba, S., Carrara, S., Huisman, J., Mathieux, F., & Pavel, C. (2020). Critical Raw Materials for Strategic Technologies and Sectors in the EU - a Foresight Study",
+     "justification": "The foresight study appears in a footnote reference list; the text instead attributes the criticality table's data to the RMIS dataset, so the study's direct use here is not established by the excerpt."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "unclear",
+   "influence_how": "The JRC's 2020 CRM foresight study is footnoted twice near a criticality assessment table, but the body text credits the table's data to the RMIS dataset rather than explicitly to the foresight study, so it is unclear whether the foresight study's own outputs shaped this IA's analysis.",
+   "notes": "Flag for reviewer: worth checking Annex/Table 15.1 sourcing more closely if a firmer call is needed."
+  },
+  "SWD(2023)269": {
+   "mention_verdicts": {
+    "SWD(2023)269#p1-30-1": {
+     "verdict": "embedded",
+     "evidence_quote": "In line with the strategic foresight approach, the baseline also takes into account relevant megatrends",
+     "justification": "Megatrends are explicitly stated to have been factored into the baseline and problem analysis of this impact assessment."
+    },
+    "SWD(2023)269#p1-30-2": {
+     "verdict": "contextual",
+     "evidence_quote": "121 Megatrends Hub; https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en",
+     "justification": "This occurrence is only the footnote link supporting the megatrends reference, not new analytical content."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends (JRC Megatrends Hub)",
+    "strategic foresight approach"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Megatrends such as digitalisation, sustainable consumption, and shifting health challenges were explicitly factored into the baseline and problem analysis for toy safety regulation.",
+   "notes": ""
+  },
+  "SWD(2023)293": {
+   "mention_verdicts": {
+    "SWD(2023)293#p1-38-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Some relevant megatrends are, therefore, identified to strengthen the dynamic baseline through foresight-based analysis.",
+     "justification": "Megatrends are explicitly used to strengthen the assessment's own dynamic baseline."
+    },
+    "SWD(2023)293#p1-38-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Some relevant megatrends are, therefore, identified to strengthen the dynamic baseline through foresight-based analysis.",
+     "justification": "Same passage restating that foresight-based megatrends analysis feeds the dynamic baseline."
+    },
+    "SWD(2023)293#p1-39-1": {
+     "verdict": "contextual",
+     "evidence_quote": "122 Climate change and environmental degradation, Megatrends hubs, Competence Centre on Foresight of the Joint Research Centre, European Commission.",
+     "justification": "This occurrence is a footnote citation for a megatrend source, not itself a description of analytical use."
+    },
+    "SWD(2023)293#p1-39-2": {
+     "verdict": "contextual",
+     "evidence_quote": "123 Growing consumption, Megatrends hubs, Competence Centre on Foresight of the Joint Research Centre, European Commission.",
+     "justification": "Footnote citation listing a megatrend source alongside cost-analysis text; no analytical use shown in this excerpt."
+    },
+    "SWD(2023)293#p1-39-3": {
+     "verdict": "contextual",
+     "evidence_quote": "124 Shifting health challenges, Megatrends hubs, Competence Centre on Foresight of the Joint Research Centre, European Commission.",
+     "justification": "Footnote citation only; the body text in this excerpt concerns cost categorisation, not foresight application."
+    },
+    "SWD(2023)293#p1-39-4": {
+     "verdict": "contextual",
+     "evidence_quote": "125 Increasing demographic imbalance, Megatrends hubs, Competence Centre on Foresight of the Joint Research Centre, European Commission.",
+     "justification": "Footnote citation only, part of the same footnote cluster as the other p1-39 mentions."
+    },
+    "SWD(2023)293#p2-3-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The report should indicate whether and how foresight analysis has informed the problem definition.",
+     "justification": "This is the RSB questioning whether foresight was used, not evidence that it was actually applied."
+    },
+    "SWD(2023)293#p2-3-2": {
+     "verdict": "embedded",
+     "evidence_quote": "Regarding foresight analysis, links to several megatrends and basic foresight elements were added in the section developing the dynamic baseline (Section 5).",
+     "justification": "The DG's reply confirms megatrends and foresight elements were incorporated into the dynamic baseline analysis in response to the RSB."
+    },
+    "SWD(2023)293#p2-3-3": {
+     "verdict": "embedded",
+     "evidence_quote": "Regarding foresight analysis, links to several megatrends and basic foresight elements were added in the section developing the dynamic baseline (Section 5).",
+     "justification": "Same confirmatory sentence, repeated due to overlapping excerpt windows around two nearby occurrences of 'foresight'."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends analysis (JRC Megatrends Hub / Competence Centre on Foresight)",
+    "dynamic baseline scenario"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Following an RSB recommendation to show whether foresight informed the problem definition, the DG explicitly added megatrends (changing nature of work, climate change, growing consumption, shifting health, demographic imbalance) into the dynamic baseline in Section 5.",
+   "notes": ""
+  },
+  "SWD(2023)314": {
+   "mention_verdicts": {
+    "SWD(2023)314#p1-7-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Strategic foresight report 2022",
+     "justification": "This is a glossary/acronym-list entry merely listing the report, not evidence of its use."
+    },
+    "SWD(2023)314#p1-24-1": {
+     "verdict": "contextual",
+     "evidence_quote": "No megatrends apply to the late payment problem tackled by this initiative",
+     "justification": "The assessment explicitly states megatrends were considered but found not applicable, so no foresight output shaped the analysis; the Strategic Foresight Report is otherwise cited only to back general policy framing."
+    },
+    "SWD(2023)314#p1-24-2": {
+     "verdict": "contextual",
+     "evidence_quote": "68 Strategic foresight report 2022",
+     "justification": "Footnote citation supporting a general statement about sustainable competitiveness, not shown to shape this IA's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "The assessment explicitly checked for applicable megatrends and concluded none applied to the late-payments problem; the Strategic Foresight Report is cited only as general policy backdrop."
+  },
+  "SWD(2023)351": {
+   "mention_verdicts": {
+    "SWD(2023)351#p1-20-1": {
+     "verdict": "embedded",
+     "evidence_quote": "coupled with population growth and higher living standards, the demand for transport will continue to grow. In the baseline scenario, EU road freight transport is projected to grow by 49% by 2050",
+     "justification": "The Strategic Foresight Report's demand-growth trend is used directly to justify the quantitative baseline transport projection."
+    },
+    "SWD(2023)351#p1-20-2": {
+     "verdict": "embedded",
+     "evidence_quote": "coupled with population growth and higher living standards, the demand for transport will continue to grow.",
+     "justification": "Same sentence linking the Strategic Foresight Report's trend directly to the baseline transport growth projection."
+    },
+    "SWD(2023)351#p1-23-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Explicit statement that foresight megatrends were incorporated into the assessment's baseline scenario."
+    },
+    "SWD(2023)351#p1-23-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement of foresight megatrends built into the baseline scenario."
+    },
+    "SWD(2023)351#p1-23-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)351#p1-93-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "This appears in the detailed methodology annex, confirming foresight megatrends were built into the modelled baseline scenario."
+    },
+    "SWD(2023)351#p1-93-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same methodology-annex statement of foresight megatrends incorporated into the baseline."
+    },
+    "SWD(2023)351#p1-93-3": {
+     "verdict": "contextual",
+     "evidence_quote": "168 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within a scenario-comparison discussion, without a direct assertion of use in this excerpt."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends (JRC Megatrends Hub)",
+    "2022 Strategic Foresight Report demand-growth trends",
+    "baseline scenario modelling"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The 2022 Strategic Foresight Report's demand-growth trends and JRC megatrends were explicitly built into the impact assessment's quantitative baseline transport scenario (e.g. the 49% road freight growth by 2050 figure), directly shaping the problem-persistence analysis and the baseline against which policy options were compared.",
+   "notes": ""
+  },
+  "SWD(2023)373": {
+   "mention_verdicts": {
+    "SWD(2023)373#p1-42-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Member States with more experience in forest planning and foresight.",
+     "justification": "This uses 'foresight' as a general capability/experience term for Member States, not a reference to the Commission's foresight discipline being applied in the analysis."
+    },
+    "SWD(2023)373#p1-72-1": {
+     "verdict": "contextual",
+     "evidence_quote": "2022 Strategic Foresight Report Twinning the green and digital transitions in the new geopolitical context. COM(2022)289 final.",
+     "justification": "This is a bibliography-list entry citing the Strategic Foresight Report among other legal/policy documents."
+    },
+    "SWD(2023)373#p1-113-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the problem drivers were further scrutinized – including additional material for describing the exogenous drivers, e.g., the EU Strategic foresight reports and the trends in key questions about forests",
+     "justification": "Despite being flagged as a reference-section mention, the excerpt shows the Strategic Foresight Reports were actually used as material in the assessment's own problem-tree methodology (Step 3)."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "EU Strategic Foresight Reports (used to describe exogenous problem drivers)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The EU Strategic Foresight Reports were used as supporting material to describe the exogenous drivers of the forest-monitoring problem during the impact assessment's Step 3 (problem tree development), though the specific foresight content drawn on is not detailed further in the excerpt.",
+   "notes": "The p1-113-1 mention was pipeline-flagged as in_reference_section=true, but the excerpt shows genuine methodological use rather than a bibliography entry, so it was classified embedded rather than defaulting to contextual."
+  },
+  "SWD(2023)386": {
+   "mention_verdicts": {
+    "SWD(2023)386#p1-24-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Foresight megatrends and the Strategic Foresight Report are explicitly built into the baseline passenger-transport projections."
+    },
+    "SWD(2023)386#p1-24-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement of foresight megatrends incorporated into the baseline scenario."
+    },
+    "SWD(2023)386#p1-119-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Repeats the explicit incorporation statement immediately before the baseline scenario results (passenger growth figures)."
+    },
+    "SWD(2023)386#p1-119-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)386#p1-119-3": {
+     "verdict": "contextual",
+     "evidence_quote": "213 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore.",
+     "justification": "This occurrence is only the footnote link within the baseline-results passage, not a fresh assertion of use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends (JRC Megatrends Hub)",
+    "2022 Strategic Foresight Report demand-growth trends",
+    "baseline scenario modelling"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Foresight megatrends and the 2022 Strategic Foresight Report's demand-growth trend were explicitly incorporated into the quantitative baseline projection of EU passenger transport used to assess passenger-rights policy options.",
+   "notes": ""
+  },
+  "SWD(2023)412": {
+   "mention_verdicts": {
+    "SWD(2023)412#p1-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "On 15 February 2022, the JRC (unit I.2, Competence Centre on Foresight) organised a Megatrends Analysis workshop in the context of this impact assessment.",
+     "justification": "A bespoke foresight workshop was organised specifically for this impact assessment and its megatrends were used to illustrate the problem's persistence."
+    },
+    "SWD(2023)412#p1-27-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The persistence and aggravation of the problem is also illustrated by some of the megatrends identified",
+     "justification": "Megatrends from the dedicated JRC workshop are used directly to illustrate the persistence and aggravation of the problem being assessed."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "JRC Megatrends Analysis workshop (bespoke, 15 February 2022)",
+    "megatrends: aggravating resource scarcity, shifting health challenges, climate change and environmental degradation, continuing urbanisation"
+   ],
+   "material_influence": "yes",
+   "influence_how": "A dedicated JRC Megatrends Analysis workshop was organised specifically for this impact assessment (with DG SANTE); its selected megatrends were used to illustrate and support the persistence and aggravation of the problem being addressed by the new genomic techniques proposal.",
+   "notes": "One of the clearest embedded cases in this batch: a bespoke, IA-specific foresight workshop is named and dated."
+  },
+  "SWD(2023)417": {
+   "mention_verdicts": {
+    "SWD(2023)417#p3-164-1": {
+     "verdict": "contextual",
+     "evidence_quote": "develop a soil dashboard which includes trends and foresight",
+     "justification": "This describes a planned future feature of an EU soil monitoring programme, not a foresight method used within this impact assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2023)421": {
+   "mention_verdicts": {
+    "SWD(2023)421#p2-79-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, 2020 Strategic Foresight Report, Resilience Dashboards",
+     "justification": "This is a footnote citation in a list of other assessments/frameworks that used the Consumption Footprint tool; no use within this IA is shown."
+    },
+    "SWD(2023)421#p2-79-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, 2020 Strategic Foresight Report, Resilience Dashboards",
+     "justification": "Same footnote citation repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)421#p2-79-3": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, 2020 Strategic Foresight Report, Resilience Dashboards",
+     "justification": "Same footnote citation repeated a third time; still a bibliography-style reference, not analytical use."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All three mentions are the same footnote citation to the 2020 Strategic Foresight Report's Resilience Dashboards, listed among other frameworks that use the (unrelated) Consumption Footprint tool."
+  },
+  "SWD(2023)441": {
+   "mention_verdicts": {
+    "SWD(2023)441#p1-2-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight .................................................................................................................... 19",
+     "justification": "This is only a table-of-contents heading; it shows a dedicated section exists but is not itself evidence of use."
+    },
+    "SWD(2023)441#p1-24-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout all its dimensions relevant foresight tools. It does so to anticipate trends and issues that may affect the initiative and build a robust, future-proof evidence base",
+     "justification": "The IA has a dedicated '1.6 Foresight' section explicitly stating foresight tools were used throughout the analysis, with specific megatrends applied to the problem definition."
+    },
+    "SWD(2023)441#p1-24-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout all its dimensions relevant foresight tools.",
+     "justification": "Same dedicated foresight section explicitly describing foresight tools used throughout the analysis."
+    },
+    "SWD(2023)441#p1-24-3": {
+     "verdict": "embedded",
+     "evidence_quote": "This has been duly taken into account in the analysis presented in the following sections.",
+     "justification": "Confirms that the megatrends and Strategic Foresight Report content discussed in this section were factored into the subsequent analysis."
+    },
+    "SWD(2023)441#p1-24-4": {
+     "verdict": "embedded",
+     "evidence_quote": "Another megatrend that is relevant for the evolution of the problems is “continuing urbanisation”.",
+     "justification": "The 2022 Strategic Foresight Report and named megatrends are used together to justify specific problem drivers within the IA's dedicated foresight section."
+    },
+    "SWD(2023)441#p1-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Explicit statement that foresight megatrends were built into the quantitative baseline transport scenario."
+    },
+    "SWD(2023)441#p1-27-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement of foresight incorporation into the baseline scenario."
+    },
+    "SWD(2023)441#p1-27-3": {
+     "verdict": "contextual",
+     "evidence_quote": "110 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within the baseline-results passage, without a fresh assertion of use."
+    },
+    "SWD(2023)441#p1-91-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Repeats the incorporation statement in the detailed analytical-methods annex, reinforcing that foresight fed the modelled baseline."
+    },
+    "SWD(2023)441#p1-91-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement in the methods annex, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)441#p1-91-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "This excerpt window again opens directly on the incorporation sentence within the methods annex."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "dedicated foresight tools (Section 1.6 Foresight)",
+    "megatrends: climate change and environmental degradation, continuing urbanisation",
+    "2022 Strategic Foresight Report (twinning of green/digital transitions)",
+    "baseline scenario modelling (EU Reference Scenario 2020 + foresight megatrends)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The IA dedicates an entire subsection (1.6 Foresight) to stating that foresight tools were incorporated throughout the analysis; specific megatrends and the 2022 Strategic Foresight Report were used both to build the problem definition and the quantitative baseline transport/emissions scenario against which policy options are assessed.",
+   "notes": "One of the clearest embedded IAs in this batch: it is the only one with an entire named 'Foresight' subsection stating explicit, document-wide use."
+  },
+  "SWD(2023)443": {
+   "mention_verdicts": {
+    "SWD(2023)443#p1-37-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Foresight megatrends and the Strategic Foresight Report are explicitly built into the baseline rail-capacity scenario."
+    },
+    "SWD(2023)443#p1-37-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)443#p1-37-3": {
+     "verdict": "contextual",
+     "evidence_quote": "86 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within a capacity/congestion results passage, without a fresh assertion of use."
+    },
+    "SWD(2023)443#p1-122-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Repeats the incorporation statement in the detailed baseline-scenario annex."
+    },
+    "SWD(2023)443#p1-122-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)443#p1-122-3": {
+     "verdict": "contextual",
+     "evidence_quote": "208 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within a CO2/congestion results passage, without a fresh assertion of use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends (JRC Megatrends Hub)",
+    "2022 Strategic Foresight Report demand-growth trends",
+    "baseline scenario modelling"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Foresight megatrends and the 2022 Strategic Foresight Report's demand-growth trend were explicitly incorporated into the quantitative baseline rail-capacity scenario used to assess policy options for railway infrastructure capacity.",
+   "notes": ""
+  },
+  "SWD(2023)445": {
+   "mention_verdicts": {
+    "SWD(2023)445#p1-28-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout all its dimensions relevant foresight tools.",
+     "justification": "The IA explicitly states foresight tools were used throughout the analysis, with specific megatrends and the Strategic Foresight Report tied to the problem definition."
+    },
+    "SWD(2023)445#p1-28-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The analysis incorporates throughout all its dimensions relevant foresight tools.",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)445#p1-28-3": {
+     "verdict": "embedded",
+     "evidence_quote": "This has been duly taken into account in the analysis presented in the following sections.",
+     "justification": "Confirms the megatrend and Strategic Foresight Report content discussed was factored into the subsequent analysis of heavy-duty vehicle weights and dimensions."
+    },
+    "SWD(2023)445#p1-32-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Foresight megatrends are explicitly built into the quantitative baseline transport-demand scenario."
+    },
+    "SWD(2023)445#p1-32-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)445#p1-32-3": {
+     "verdict": "contextual",
+     "evidence_quote": "108 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within a baseline-results passage, without a fresh assertion of use."
+    },
+    "SWD(2023)445#p1-99-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Repeats the incorporation statement in the detailed baseline-scenario annex."
+    },
+    "SWD(2023)445#p1-99-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)445#p1-99-3": {
+     "verdict": "contextual",
+     "evidence_quote": "204 \"https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en\" \\l \"explore\"",
+     "justification": "This occurrence is only the footnote link within the baseline-results passage, without a fresh assertion of use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "dedicated foresight tools (problem-persistence section)",
+    "megatrends: climate change and environmental degradation",
+    "2022 Strategic Foresight Report",
+    "baseline scenario modelling"
+   ],
+   "material_influence": "yes",
+   "influence_how": "This IA uses the same explicit language as SWD(2023)441 ('the analysis incorporates throughout all its dimensions relevant foresight tools'), and separately states the baseline incorporates foresight megatrends and the 2022 Strategic Foresight Report, directly shaping both the problem definition and the quantitative baseline transport scenario.",
+   "notes": ""
+  },
+  "SWD(2023)663": {
+   "mention_verdicts": {
+    "SWD(2023)663#p1-18-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The Commission’s 2021 Strategic Foresight Report indicates that pressure on democratic models of governance and values is likely to persist in the coming decades due to rising geopolitical tensions",
+     "justification": "The Strategic Foresight Report's finding is used directly to support the assessment's argument that the problem of covert foreign interest representation is likely to persist."
+    },
+    "SWD(2023)663#p1-18-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Commission’s 2021 Strategic Foresight Report, available at:",
+     "justification": "This occurrence is only the footnote citation link, not additional analytical use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "2021 Strategic Foresight Report (democratic resilience findings)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The 2021 Strategic Foresight Report's finding on persistent pressure on democratic governance was used to support the assessment's claim that the problem of covert foreign interest representation is likely to persist.",
+   "notes": ""
+  },
+  "SWD(2023)717": {
+   "mention_verdicts": {
+    "SWD(2023)717#p1-9-1": {
+     "verdict": "contextual",
+     "evidence_quote": "38 JRC, Migration Megatrends, Increasing significance of migration",
+     "justification": "This is a footnote citation supporting a specific migration statistic, not a description of foresight methods shaping the assessment's own analysis."
+    },
+    "SWD(2023)717#p1-9-2": {
+     "verdict": "contextual",
+     "evidence_quote": "40 European Commission, Strategic Foresight Report, 2023, pp. 9-10",
+     "justification": "This is a footnote citation attached to a general statement that future migration trends are hard to predict, not evidence the report's content was used analytically."
+    },
+    "SWD(2023)717#p1-25-1": {
+     "verdict": "contextual",
+     "evidence_quote": "149 European Commission, Strategic Foresight Report, 2023, p. 10.",
+     "justification": "This appears as one citation in a dense footnote list supporting CEDEFOP/Eurostat labour projections, without a clear inline attribution of a specific claim to the Strategic Foresight Report."
+    },
+    "SWD(2023)717#p1-82-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Strategic Foresight Report, 2023, pp. 8-9 2023, 2023 Strategic Foresight Report (europa.eu)",
+     "justification": "This occurrence is within a bibliography/reference list preceding Annex 2, a default-contextual bibliography citation."
+    },
+    "SWD(2023)717#p1-82-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Strategic Foresight Report, 2023, pp. 8-9 2023, 2023 Strategic Foresight Report (europa.eu)",
+     "justification": "Same bibliography-list citation, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)717#p1-157-1": {
+     "verdict": "embedded",
+     "evidence_quote": "already on-going megatrends are likely to be confirmed in the near and medium-term future, at least by 2030",
+     "justification": "Megatrends from the Strategic Foresight Report and JRC Migration Megatrends are used directly to characterise and confirm ongoing demographic/migration trends within the assessment's own methodological analysis of migration indicators."
+    },
+    "SWD(2023)717#p1-157-2": {
+     "verdict": "embedded",
+     "evidence_quote": "already on-going megatrends are likely to be confirmed in the near and medium-term future, at least by 2030",
+     "justification": "Same passage, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)717#p1-172-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Cedefop launched a foresight exercise on skills related to 4 sectors: smart and green cities, waste management, agri-food and circular economy",
+     "justification": "A named Cedefop foresight exercise on green-transition skills is cited immediately before specific quantified workforce estimates used in the assessment's skills-shortage analysis."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "JRC Migration Megatrends",
+    "EU Strategic Foresight Report (2021, 2023) migration/demographic trend findings",
+    "Cedefop foresight exercise on skills for green-transition sectors (to 2030)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "JRC Migration Megatrends and successive Strategic Foresight Reports were used to characterise and confirm migration and labour-market trends underpinning the problem definition for the EU Talent Pool, and a named Cedefop foresight exercise on green-transition skills fed quantified workforce estimates used in the assessment's skills-shortage analysis.",
+   "notes": "Two mentions (p1-9-1, p1-9-2) initially considered were downgraded to contextual on review: they are footnote citations supporting specific data points, not clear assertions of foresight shaping the analysis. The embedded verdict rests on p1-157 (megatrends used to confirm ongoing trends) and p1-172 (named Cedefop foresight exercise feeding workforce estimates)."
+  },
+  "SWD(2023)88": {
+   "mention_verdicts": {
+    "SWD(2023)88#p2-51-1": {
+     "verdict": "contextual",
+     "evidence_quote": "explicit representation of technologies and vintages, thus allowing for foresight for the modelling of investment in all sectors",
+     "justification": "This uses 'foresight' in its generic English sense to describe the PRIMES model's forward-looking capability, not a reference to the EU Strategic Foresight discipline or its outputs."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "The only mention here uses 'foresight' as an ordinary English word describing model capability, not the EU foresight discipline; flagged in case reviewers want to exclude this sense of the word from the count entirely."
+  },
+  "SWD(2023)941": {
+   "mention_verdicts": {
+    "SWD(2023)941#p1-7-1": {
+     "verdict": "contextual",
+     "evidence_quote": "21 OECD, Strategic Foresight see at https://www.oecd.org/strategic-foresight/whatisforesight/.",
+     "justification": "This is a definitional footnote citing the OECD's foresight page, not evidence of foresight used in this assessment's analysis."
+    },
+    "SWD(2023)941#p1-7-2": {
+     "verdict": "contextual",
+     "evidence_quote": "21 OECD, Strategic Foresight see at https://www.oecd.org/strategic-foresight/whatisforesight/.",
+     "justification": "Same definitional footnote, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2023)941#p1-7-3": {
+     "verdict": "contextual",
+     "evidence_quote": "21 OECD, Strategic Foresight see at https://www.oecd.org/strategic-foresight/whatisforesight/.",
+     "justification": "Same definitional footnote, repeated a third time."
+    },
+    "SWD(2023)941#p1-22-1": {
+     "verdict": "embedded",
+     "evidence_quote": "identifies important structural global trends towards 2050 that will affect the EU’s capacity and freedom to act",
+     "justification": "The Strategic Foresight Report's structural global trends are used directly to support the argument that consular protection needs will grow over time."
+    },
+    "SWD(2023)941#p1-22-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2021 Strategic Foresight Report highlights that the “EU needs to continue to play an essential role in preventive diplomacy and support",
+     "justification": "Direct quotation from the Strategic Foresight Report is used to support the assessment's argument about future crisis needs."
+    },
+    "SWD(2023)941#p1-23-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2021 Strategic Foresight Report highlights that the “EU needs to continue to play an essential role in preventive diplomacy and support",
+     "justification": "Same direct quotation from the Strategic Foresight Report used substantively in the problem-evolution analysis."
+    },
+    "SWD(2023)941#p1-28-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the need for consular protection is likely to increase as foresight studies suggest that large disruptions to travel and other human activities are likely to increase further",
+     "justification": "Foresight studies are cited directly within the baseline-scenario description (Section 5.1) to justify the projected increase in need for consular protection."
+    },
+    "SWD(2023)941#p1-60-1": {
+     "verdict": "embedded",
+     "evidence_quote": "For the increasing number of crises, megatrends as identified by the European Commission 2021 Strategic Foresight Report have been used as a driving factor of future crises.",
+     "justification": "The DG's reply to the RSB explicitly confirms that Strategic Foresight Report megatrends were used as a driving factor in projecting future crises."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "2021 Strategic Foresight Report structural global trends (climate change, digital hyperconnectivity, democratic pressure, demographic/global order shifts)",
+    "megatrends used as driving factor for future-crisis projections"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The 2021 Strategic Foresight Report's global structural trends were explicitly used as the driving factor for projecting the future number and severity of crises requiring consular assistance, directly shaping the baseline scenario and the problem-persistence argument; this use was confirmed in the DG's reply to the RSB.",
+   "notes": "Strong, RSB-confirmed embedded case: the DG's own reply states megatrends were used as 'a driving factor of future crises'."
+  },
+  "SWD(2023)97": {
+   "mention_verdicts": {
+    "SWD(2023)97#p1-3-1": {
+     "verdict": "contextual",
+     "evidence_quote": "ANNEX 8: STRATEGIC FORESIGHT FOR THE REVISION",
+     "justification": "This is only a table-of-contents heading pointing to the annex; it shows a dedicated section exists but is not itself an account of use."
+    },
+    "SWD(2023)97#p1-133-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The Commission services organised a workshop on ‘Megatrends Analysis for the Impact Assessment: How to ensure quality and sustainability in the food supply chain in future – what role for marketing standards?’",
+     "justification": "A dedicated, cross-DG megatrends workshop was organised specifically for this impact assessment, and its outputs are documented in a full annex."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Megatrends Analysis workshop (27 October 2021, dedicated Annex 8, DG AGRI/DG SANTE/JRC)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "A dedicated cross-DG megatrends workshop was organised specifically for this impact assessment (documented in full in Annex 8), mapping megatrends and discussing their policy implications for the marketing-standards revision.",
+   "notes": "One of the clearest embedded cases in this batch: a bespoke workshop with its own dedicated annex, naming participating DGs and date."
+  },
+  "SWD(2024)15": {
+   "mention_verdicts": {
+    "SWD(2024)15#p1-29-1": {
+     "verdict": "embedded",
+     "evidence_quote": "of “Accelerating technological change and hyperconnectivity”, the evolution of the problem has to been seen from the perspective",
+     "justification": "Strategic Foresight Report megatrends are used directly to assess how the RIS problem is likely to evolve and persist."
+    },
+    "SWD(2024)15#p1-29-2": {
+     "verdict": "embedded",
+     "evidence_quote": "of “Accelerating technological change and hyperconnectivity”, the evolution of the problem has to been seen from the perspective",
+     "justification": "Same passage, used to assess the problem's likely persistence and evolution."
+    },
+    "SWD(2024)15#p1-29-3": {
+     "verdict": "embedded",
+     "evidence_quote": "of “Accelerating technological change and hyperconnectivity”, the evolution of the problem has to been seen from the perspective",
+     "justification": "Same passage, repeated due to overlapping excerpt windows around 'How likely is the problem to persist?'."
+    },
+    "SWD(2024)15#p1-35-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Foresight megatrends from both the 2021 and 2022 Strategic Foresight Reports are explicitly built into the baseline transport scenario."
+    },
+    "SWD(2024)15#p1-35-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2024)15#p1-35-3": {
+     "verdict": "embedded",
+     "evidence_quote": "It also considers the influence of the megatrends identified in the 2021 Strategic Foresight Report",
+     "justification": "Confirms that megatrends from both the 2021 and 2022 Strategic Foresight Reports feed the baseline scenario."
+    },
+    "SWD(2024)15#p1-35-4": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2024)15#p1-35-5": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2024)15#p1-35-6": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same explicit statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2024)15#p1-107-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Repeats the incorporation statement in the detailed baseline-scenario annex covering inland waterways transport."
+    },
+    "SWD(2024)15#p1-107-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends",
+     "justification": "Same statement, repeated due to overlapping excerpt windows."
+    },
+    "SWD(2024)15#p1-107-3": {
+     "verdict": "contextual",
+     "evidence_quote": "151 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "This occurrence is only the footnote link within the baseline-results table discussion, without a fresh assertion of use."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "megatrends (2021 and 2022 Strategic Foresight Reports, especially 'Accelerating technological change and hyperconnectivity')",
+    "baseline scenario modelling (EU Reference Scenario 2020 + foresight megatrends)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Megatrends from the 2021 and 2022 Strategic Foresight Reports were explicitly used both to assess how likely the river-information-services problem is to persist (Section 2.3) and to build the quantitative inland-waterways baseline scenario against which policy options are compared.",
+   "notes": "Almost every mention in this IA is embedded, making it one of the strongest and most consistent embedded cases in the batch."
+  },
+  "SWD(2024)63": {
+   "mention_verdicts": {
+    "SWD(2024)63#p1-11-1": {
+     "verdict": "contextual",
+     "evidence_quote": "(13) 2023 Strategic Foresight Report: Sustainability and people's wellbeing at the heart of Europe's Open Strategic Autonomy.",
+     "justification": "This is a footnote citation supporting a general statement about energy security, not shown to be used analytically in this IA."
+    },
+    "SWD(2024)63#p1-88-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The lead DG is DG CLIMA, Unit A2: Foresight, Economic Analysis & Modelling.",
+     "justification": "This names the organisational unit leading the assessment; it does not itself describe a foresight method or output used in the analysis."
+    },
+    "SWD(2024)63#p4-12-1": {
+     "verdict": "contextual",
+     "evidence_quote": "(17) JRC (2023). Supply chains and materials demand forecast in strategic technologies and sectors in the EU. A foresight study.",
+     "justification": "This is a footnote citation in a numbered reference list supporting critical-raw-materials background, not shown to be used analytically here."
+    },
+    "SWD(2024)63#p4-16-1": {
+     "verdict": "contextual",
+     "evidence_quote": "(23) JRC (2023). Supply chains and materials demand forecast in strategic technologies and sectors in the EU. A foresight study.",
+     "justification": "Same footnote citation repeated in a different annex passage; still a bibliography-style reference."
+    },
+    "SWD(2024)63#p4-39-1": {
+     "verdict": "contextual",
+     "evidence_quote": "there is a need to develop up-to-date labour market and skills intelligence and foresight",
+     "justification": "This describes a future need for better foresight capacity, not an existing foresight method or output used within this assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Despite being led by DG CLIMA's Foresight unit and citing a JRC foresight study on critical raw materials, none of the five excerpts show foresight outputs actually shaping this IA's own analysis; all are citations, an organisational-unit name, or a stated future need."
+  },
+  "SWD(2024)67": {
+   "mention_verdicts": {
+    "SWD(2024)67#p1-18-1": {
+     "verdict": "contextual",
+     "evidence_quote": "hampering the transition to and achievement of a sustainable Europe by 2050 as identified in the 2023 Strategic Foresight report",
+     "justification": "The 2023 Strategic Foresight Report is cited to support a background claim about sustainability transition, not used as a method in this assessment's own analysis."
+    },
+    "SWD(2024)67#p1-36-1": {
+     "verdict": "contextual",
+     "evidence_quote": "According to the 2023 Strategic Foresight Report, poor quality jobs, in terms of poor working conditions are one of the drivers of skills mismatches.",
+     "justification": "Footnote citation to the Strategic Foresight Report supporting a specific factual claim, not a method applied within the assessment."
+    },
+    "SWD(2024)67#p1-37-1": {
+     "verdict": "embedded",
+     "evidence_quote": "In a foresight perspective",
+     "justification": "A forward-looking foresight perspective is applied directly in the main analysis to reach a conclusion about future traineeship market dynamics that feeds into the growth-scenario assumptions discussed immediately after."
+    },
+    "SWD(2024)67#p1-37-2": {
+     "verdict": "contextual",
+     "evidence_quote": "The 2023 Strategic Foresight Report: Sustainability and people's wellbeing at the heart of Europe's Strategic Autonomy and 2022 Strategic Foresight Report Twinning the green and digital transitions in the new geopolitical context.",
+     "justification": "This is a footnote listing of Strategic Foresight Report titles, a bibliographic-style citation rather than a description of foresight methods being applied."
+    },
+    "SWD(2024)67#p1-37-3": {
+     "verdict": "contextual",
+     "evidence_quote": "111 The 2023 Strategic Foresight Report: Sustainability and people's wellbeing at the heart of Europe's Strategic Autonomy",
+     "justification": "Same footnote citation repeated; used to reference the report, not to show foresight methodology used in this assessment's own analysis."
+    },
+    "SWD(2024)67#p1-43-1": {
+     "verdict": "contextual",
+     "evidence_quote": "125 The 2023 Strategic Foresight Report: Sustainability and people's wellbeing at the heart of Europe's Strategic Autonomy.",
+     "justification": "Footnote citation supporting a stakeholder-views paragraph, not an application of foresight methods."
+    },
+    "SWD(2024)67#p1-56-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Traineeships with good learning content can help to overcome two challenges identified in the 2023 Strategic Foresight report",
+     "justification": "The Strategic Foresight Report is cited to characterise a challenge; the excerpt shows a supporting citation, not the IA's own foresight-based analysis."
+    },
+    "SWD(2024)67#p2-7-1": {
+     "verdict": "embedded",
+     "evidence_quote": "We also clarified that, in a foresight perspective, the above structural drivers will continue to play a significant role",
+     "justification": "This RSB-response document confirms that a foresight-informed perspective on structural labour-market drivers was substantively incorporated into the report's baseline analysis (section 5.1)."
+    },
+    "SWD(2024)67#p2-8-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Section 5.1 of the report was strengthened in order to provide a more realistic and balanced picture of the problems’ evolution and to integrate foresight analysis.",
+     "justification": "In response to an RSB request to better incorporate foresight analysis on demographic and labour-market trends, the assessment confirms it added such analysis to strengthen its baseline evolution section."
+    },
+    "SWD(2024)67#p2-8-2": {
+     "verdict": "embedded",
+     "evidence_quote": "It should better incorporate foresight analysis on the broader demographic and labour market trends",
+     "justification": "Repeats the RSB requirement and the IA's confirmation that foresight analysis was integrated into the strengthened baseline section, directly shaping the problem-evolution narrative."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Foresight perspective/analysis on demographic and labour-market trends (informed by the 2023 Strategic Foresight Report and a JRC foresight study), integrated into the baseline problem-evolution analysis (section 5.1) following RSB feedback"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Following RSB feedback demanding better foresight-based analysis of future labour-market trends, the assessment states it strengthened its baseline (section 5.1) to integrate a foresight perspective on structural drivers, which fed into the growth-scenario assumptions used for the traineeship market.",
+   "notes": "Foresight is used here in a fairly generic, qualitative sense (\"foresight perspective\"/\"foresight analysis\") rather than as a named formal method; most other mentions in this IA are footnote citations to the annual Strategic Foresight Report supporting isolated factual claims and remain contextual. Reviewers may want to weigh how substantive the added \"foresight analysis\" actually was, since the RSB response describes fairly modest additions (drivers of labour shortages, race-for-talent narrative)."
+  },
+  "SWD(2025)1058": {
+   "mention_verdicts": {
+    "SWD(2025)1058#p2-38-1": {
+     "verdict": "embedded",
+     "evidence_quote": "embedding engineering constraints and explicit representation of technologies and vintages, thus allowing for foresight for the modelling of investment in all sectors",
+     "justification": "This is the IA's own annex describing the PRIMES scenario/projection model used for its quantitative energy-sector analysis, whose forward-looking (foresight) investment modelling capability is explicitly part of the tool applied in this assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "PRIMES energy-system model (long-horizon scenario/projection modelling of investment, used to 2070)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The PRIMES model, whose capacity for 'foresight' in investment modelling is described in this methodological annex, underpins the assessment's quantitative energy-system projections and scenario analysis.",
+   "notes": "This is the only mention for this IA and it is a single-sentence description within a modelling-tools annex; the word 'foresight' here is used as a general-English capability descriptor for the model rather than naming the Commission's Strategic Foresight exercise, but it does describe a projection/scenario method actually used in the assessment."
+  },
+  "SWD(2025)1060": {
+   "mention_verdicts": {
+    "SWD(2025)1060#p1-23-1": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "The baseline scenario used to assess policy options explicitly incorporates the 2022 Strategic Foresight Report and a dedicated DG MOVE/JRC foresight workshop on megatrends."
+    },
+    "SWD(2025)1060#p1-23-2": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Same baseline-scenario passage; foresight workshop outputs are directly incorporated into the transport activity projections used in this assessment."
+    },
+    "SWD(2025)1060#p1-23-3": {
+     "verdict": "embedded",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "Footnote pointing to the Megatrends Hub foresight tool that underpins the baseline scenario assumptions used for policy comparison in this assessment."
+    },
+    "SWD(2025)1060#p1-100-1": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Repeats the explicit statement that the baseline scenario (basis for all impact comparisons) incorporates the Strategic Foresight Report and DG MOVE/JRC foresight workshop."
+    },
+    "SWD(2025)1060#p1-100-2": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Same passage confirming foresight-workshop-informed baseline used for the transport activity projections in section 2.2."
+    },
+    "SWD(2025)1060#p1-100-3": {
+     "verdict": "embedded",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "Footnote to the Megatrends Hub tool underlying the baseline scenario results used throughout the assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "2022 Strategic Foresight Report",
+    "DG MOVE/JRC foresight workshop on megatrends (10 Feb 2025)",
+    "Megatrends Hub tool"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The 2022 Strategic Foresight Report and a dedicated DG MOVE/JRC foresight workshop on transport megatrends were explicitly used to shape the baseline scenario's projected transport activity, which is the basis against which all policy options in this IA are compared.",
+   "notes": ""
+  },
+  "SWD(2025)192": {
+   "mention_verdicts": {
+    "SWD(2025)192#p1-89-1": {
+     "verdict": "embedded",
+     "evidence_quote": "making good use of foresight insights",
+     "justification": "The RSB explicitly required the baseline (a 40-year worker-exposure trend projection) to make use of foresight insights, and the response confirms this was implemented."
+    },
+    "SWD(2025)192#p1-89-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The description of the baseline also better embed strategic foresight to support the different trends, including with regard to the change in the number of workers exposed.",
+     "justification": "The assessment explicitly states that strategic foresight was embedded into its baseline description of future worker-exposure trends, which directly underpins the impact analysis."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Strategic foresight insights integrated into the 40-year baseline trend projection for worker chemical exposure"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Following RSB feedback requesting better use of foresight insights, the baseline scenario describing the 40-year evolution of worker exposure to hazardous substances was revised to embed strategic foresight on relevant trends.",
+   "notes": ""
+  },
+  "SWD(2025)335": {
+   "mention_verdicts": {
+    "SWD(2025)335#p1-16-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Supply chain analysis and material demand forecast in strategic technologies and sectors in the EU – A foresight study. Joint Research Centre (JRC).",
+     "justification": "Footnote citation to a JRC foresight study used to support a claim about raw-materials dependency; the study itself is not shown to be methodologically applied within this assessment."
+    },
+    "SWD(2025)335#p1-16-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Supply chain analysis and material demand forecast in strategic technologies and sectors in the EU – A foresight study. Joint Research Centre (JRC).",
+     "justification": "Same JRC foresight study cited again as a supporting footnote for the problem description, not integrated as a method."
+    },
+    "SWD(2025)335#p1-16-3": {
+     "verdict": "contextual",
+     "evidence_quote": "Supply chain analysis and material demand forecast in strategic technologies and sectors in the EU – A foresight study. Joint Research Centre (JRC).",
+     "justification": "Repeated footnote citation of the JRC foresight study; used as supporting evidence for a claim rather than as an applied method."
+    },
+    "SWD(2025)335#p1-16-4": {
+     "verdict": "contextual",
+     "evidence_quote": "Supply chain analysis and material demand forecast in strategic technologies and sectors in the EU – A foresight study. Joint Research Centre (JRC).",
+     "justification": "Same citation pattern; the foresight study is referenced as a source, not shown to shape the assessment's own methodology or conclusions beyond citation."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All four mentions are the same repeated footnote citing a JRC 'foresight study' on raw-material supply chains, used to support the problem-definition narrative on raw materials dependency. Per the classification rules, a citation alone (however substantive the underlying study) does not qualify as embedded."
+  },
+  "SWD(2025)545": {
+   "mention_verdicts": {
+    "SWD(2025)545#p1-8-1": {
+     "verdict": "contextual",
+     "evidence_quote": "It stresses the importance of anticipatory action, strategic foresight, improved early-warning, situational analysis and cross-sectoral coordination systems",
+     "justification": "Describes the political strategy's emphasis on foresight as a policy tool; background/political context, not the IA's own analytical method."
+    },
+    "SWD(2025)545#p1-12-1": {
+     "verdict": "contextual",
+     "evidence_quote": "19 2023 Strategic Foresight Report. European Commission, 2023.",
+     "justification": "A bare footnote citation of the Strategic Foresight Report supporting the 'polycrisis' concept, not a method applied in this assessment."
+    },
+    "SWD(2025)545#p1-13-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Scientific research, foresight, and technological advancements remain underused in enhancing risk understanding, detecting emerging risks, and anticipating future crises.",
+     "justification": "This is part of the problem definition (the EU underuses foresight), i.e. foresight is the subject of the policy problem, not a method used to produce this assessment's own analysis."
+    },
+    "SWD(2025)545#p1-13-2": {
+     "verdict": "contextual",
+     "evidence_quote": "EU crisis management lacks an integrated foresight, anticipation, and early warning",
+     "justification": "Describes a policy problem (lack of integrated foresight capacity) as part of the problem analysis, not the assessment's own use of foresight methodology."
+    },
+    "SWD(2025)545#p1-14-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The still limited use of strategic foresight at the EU level widens the gap in anticipating future crises",
+     "justification": "Discusses the EU's underuse of strategic foresight as a problem driver; subject matter of the policy, not a method applied by this IA."
+    },
+    "SWD(2025)545#p1-14-2": {
+     "verdict": "contextual",
+     "evidence_quote": "to integrate strategic foresight more effectively into policymaking",
+     "justification": "Describes a policy aspiration to better integrate foresight into future policymaking generally, not evidence that this assessment itself used foresight methods."
+    },
+    "SWD(2025)545#p1-14-3": {
+     "verdict": "contextual",
+     "evidence_quote": "These gaps at EU level in using strategic foresight and early warning systems were also pointed out during the Open Public Consultation",
+     "justification": "Consultation feedback about EU-level foresight gaps as a problem, not the assessment applying foresight methodology."
+    },
+    "SWD(2025)545#p1-21-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Union action is necessary to build capacity for crisis response through strategic foresight, integrated risk management",
+     "justification": "Subsidiarity argument describing strategic foresight as a capability the new instrument would build, not a method used to produce this IA's analysis."
+    },
+    "SWD(2025)545#p1-22-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Addressing these gaps at Union level would ensure a more consistent and effective approach to strategic foresight, planning and knowledge-based decision making.",
+     "justification": "Continuation of the subsidiarity argument about future EU-level foresight capacity, not a foresight method applied within this assessment."
+    },
+    "SWD(2025)545#p1-25-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Foresight and early identification of potential risks are essential tools for preventing crises or minimising their impact.",
+     "justification": "General policy-objective narrative describing foresight as a tool the new instrument would strengthen, not a method this assessment itself used."
+    },
+    "SWD(2025)545#p1-25-2": {
+     "verdict": "contextual",
+     "evidence_quote": "The changing threat landscape demands the strengthening of capacities in foresight, anticipation, and early warning at both EU and national level.",
+     "justification": "Describes future investment needs in foresight capacity as an objective of the initiative, not the IA's own analytical method."
+    },
+    "SWD(2025)545#p1-25-3": {
+     "verdict": "contextual",
+     "evidence_quote": "Overview Foresight and early identification of potential risks are essential tools for preventing crises",
+     "justification": "Same objectives-section narrative about foresight as a policy tool to be developed, not evidence of foresight methodology used in this assessment."
+    },
+    "SWD(2025)545#p1-25-4": {
+     "verdict": "contextual",
+     "evidence_quote": "the EU needs to be able to connect all competent institutions and information relevant for anticipatory and foresight activities",
+     "justification": "Describes future reform needs regarding foresight capacity; subject of the policy, not a method used for this IA's own analysis."
+    },
+    "SWD(2025)545#p1-30-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the need for prevention and preparedness-related activities, such as anticipation, foresight, and capacity development",
+     "justification": "Foresight listed among activities the policy options would fund; describes the object of the intervention, not a method applied in producing this assessment."
+    },
+    "SWD(2025)545#p1-32-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Anticipation, strategic foresight, and early warning activities are undertaken at EU-level",
+     "justification": "Describes existing foresight activities across EU bodies as part of the baseline description of the status quo, not a foresight method applied by this assessment itself."
+    },
+    "SWD(2025)545#p1-32-2": {
+     "verdict": "contextual",
+     "evidence_quote": "Anticipation, strategic foresight, and early warning activities are undertaken at EU-level",
+     "justification": "Same baseline description of existing (disconnected) EU foresight activities; descriptive background, not an applied method."
+    },
+    "SWD(2025)545#p1-36-1": {
+     "verdict": "contextual",
+     "evidence_quote": "strengthened analysis and anticipation, and foresight of disasters and crises",
+     "justification": "Describes an expected feature of policy option 1 (future strengthening of foresight capability), not a method used to produce the assessment."
+    },
+    "SWD(2025)545#p1-37-1": {
+     "verdict": "contextual",
+     "evidence_quote": "This comprehensive assessment draws on existing EU-level and national assessments (without replacing them), scientific analysis, foresight, EU-funded research and innovation, early-warning systems",
+     "justification": "Describes what a future comprehensive risk assessment (to be created under policy option 2) would draw on; a design feature of the proposed policy, not evidence this IA's own analysis used foresight."
+    },
+    "SWD(2025)545#p1-38-1": {
+     "verdict": "contextual",
+     "evidence_quote": "This comprehensive assessment draws on existing EU-level and national assessments (without replacing them), scientific analysis, foresight",
+     "justification": "Same description of the future comprehensive assessment envisaged under policy option 2, not a method applied within this IA."
+    },
+    "SWD(2025)545#p1-42-1": {
+     "verdict": "contextual",
+     "evidence_quote": "through strengthened anticipation and foresight capabilities",
+     "justification": "Describes an anticipated benefit of policy option 1 (better foresight capability in future), not a method used for this assessment's own analysis."
+    },
+    "SWD(2025)545#p1-52-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Examples include the 'foresight and anticipation' pillar, which is coherent and a focus in both policy options.",
+     "justification": "Coherence check against the Preparedness Union Strategy's 'foresight and anticipation' pillar; discusses alignment of policy options with a strategy pillar, not use of foresight methodology by this IA."
+    },
+    "SWD(2025)545#p1-57-1": {
+     "verdict": "contextual",
+     "evidence_quote": "Monitoring and evaluation are part of the life cycle of strategic foresight and anticipatory approaches",
+     "justification": "Describes future monitoring/evaluation design principles tied to the concept of strategic foresight, not a method used to produce this assessment's findings."
+    },
+    "SWD(2025)545#p1-80-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the early warning, anticipation and foresight of crises will benefit all private sector actors in an affected region",
+     "justification": "Describes an anticipated competitiveness benefit of the preferred option (improved future foresight capability), not a method applied within this assessment."
+    },
+    "SWD(2025)545#p1-91-1": {
+     "verdict": "contextual",
+     "evidence_quote": "chapter 2 identified the underuse of scientific research, foresight, and technological advancements as a significant problem",
+     "justification": "Subsidiarity section restating that foresight is underused as part of the problem definition, not a method this IA used in its own analysis."
+    },
+    "SWD(2025)545#p1-91-2": {
+     "verdict": "contextual",
+     "evidence_quote": "the limited use of strategic foresight – particularly at the EU level, widens the gap in anticipating future crises",
+     "justification": "Same subsidiarity argument about limited EU foresight use as the policy problem, not a method applied by the assessment."
+    },
+    "SWD(2025)545#p1-91-3": {
+     "verdict": "contextual",
+     "evidence_quote": "a fragmented foresight and risk assessment landscape, as would be created by Member State action alone, would be insufficient to anticipate and foster preparedness for crises",
+     "justification": "Describes fragmentation of the foresight landscape as a problem justifying EU action, not this assessment's use of foresight methods."
+    },
+    "SWD(2025)545#p1-91-4": {
+     "verdict": "contextual",
+     "evidence_quote": "Anticipation, scientific decision making, strategic foresight, risk assessment and a whole-of-society and all-hazards approach at Union level are critical to addressing transboundary and cross-sectoral crises",
+     "justification": "General subsidiarity narrative naming strategic foresight among desirable EU-level capabilities, not evidence of foresight methodology applied in this assessment."
+    },
+    "SWD(2025)545#p1-92-1": {
+     "verdict": "contextual",
+     "evidence_quote": "making Union-level action necessary in order to ensure appropriate foresight and risk assessment",
+     "justification": "Concludes the subsidiarity argument citing the need for foresight capacity at EU level; describes a policy objective, not a method used by this IA."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "This IA (EU crisis preparedness/UCPM 2.0) discusses 'strategic foresight' extensively, but almost entirely as the substantive policy topic and capability gap that the new instrument aims to build (i.e. foresight is the object of the intervention), rather than as a method the assessment itself used to produce its own problem analysis, baseline, or option comparison. No mention shows a specific foresight scenario, projection, or exercise whose output was incorporated into this IA's own quantified or qualitative conclusions; the closest candidates (baseline description of existing JRC/ERCC foresight activities) are descriptive background rather than an applied method. Reviewers should double check this judgement given the sheer volume and centrality of 'foresight' language throughout the document."
+  },
+  "SWD(2025)550": {
+   "mention_verdicts": {
+    "SWD(2025)550#p1-16-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The policy-related problem drivers described above have been compared to the megatrends identified by the Commission’s Competence Centre on Foresight",
+     "justification": "A megatrends analysis from the Commission's foresight body was directly compared against the problem drivers, with a dedicated annex mapping table, to assess how likely the problems are to persist."
+    },
+    "SWD(2025)550#p1-170-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the Draghi report, the Letta report, the Niinistö report, but also the 2023 Strategic Foresight Report and the Megatrends relevant for the future of Europe",
+     "justification": "This is flagged in a footnote reference list alongside several other reports; a bibliography-style citation defaults to contextual."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Megatrends analysis (Commission's Competence Centre on Foresight)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Seven megatrends identified by the Commission's Competence Centre on Foresight were systematically compared against the identified problem drivers (mapped in Annex 9) to assess the likelihood that the problems will persist and intensify.",
+   "notes": ""
+  },
+  "SWD(2025)552": {
+   "mention_verdicts": {
+    "SWD(2025)552#p1-16-1": {
+     "verdict": "contextual",
+     "evidence_quote": "58 Strategic foresight report 2023",
+     "justification": "Footnote citation to the Strategic Foresight Report supporting a general claim about EU external/internal policy dynamics, not a method applied in this assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2025)555": {
+   "mention_verdicts": {
+    "SWD(2025)555#p1-13-1": {
+     "verdict": "contextual",
+     "evidence_quote": "DG Research and Innovation, Common R&I Strategy and Foresight Service, Chief Economist Unit, based on Eurostat",
+     "justification": "Naming the source unit ('...and Foresight Service') that compiled a statistic; this attributes data provenance rather than showing a foresight method applied in the assessment."
+    },
+    "SWD(2025)555#p1-16-1": {
+     "verdict": "contextual",
+     "evidence_quote": "DG Research and Innovation – Common R&I Strategy and Foresight Service – Chief Economist Unit based on PitchBook data",
+     "justification": "Same organisational-unit attribution for venture capital statistics; 'Foresight' names part of a department, not a foresight method used in the analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "Both mentions are the departmental name 'Common R&I Strategy and Foresight Service' cited as the source of statistical data, not a foresight method or output used analytically."
+  },
+  "SWD(2025)592": {
+   "mention_verdicts": {
+    "SWD(2025)592#p1-63-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission (2023). Strategic Foresight Report 2023.",
+     "justification": "This appears in a bibliography list of sources; bibliography-only mentions default to contextual."
+    },
+    "SWD(2025)592#p1-97-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the foresight report affecting the work of customs in 2040, such as larger trade volumes, increasingly complex non-customs regulatory environment for products, growing use of technology",
+     "justification": "Specific trend projections from a foresight report on customs work in 2040 are used substantively to justify the urgency and problem definition for the customs reform assessed in this IA."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Foresight report on customs work in 2040 (trend analysis)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Specific projected trends from a foresight report on customs in 2040 (trade volumes, regulatory complexity, new skills needs) were used directly to argue that current customs capacity will not keep pace, supporting the case for reform.",
+   "notes": ""
+  },
+  "SWD(2025)838": {
+   "mention_verdicts": {
+    "SWD(2025)838#p1-5-1": {
+     "verdict": "contextual",
+     "evidence_quote": "3 Strategic Foresight Report 2023",
+     "justification": "Footnote citation to the Strategic Foresight Report supporting background context on Green Deal ambitions, not a method used in the assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2025)96": {
+   "mention_verdicts": {
+    "SWD(2025)96#p1-27-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Foresight tools. The analysis incorporates throughout all its dimensions relevant foresight tools.",
+     "justification": "The assessment explicitly states that foresight tools were incorporated throughout its analysis, including the megatrend on accelerating technological change shaping the problem analysis."
+    },
+    "SWD(2025)96#p1-27-2": {
+     "verdict": "embedded",
+     "evidence_quote": "It does so to anticipate trends and issues that may affect the initiative and build a robust, future-proof evidence base for its likely impact.",
+     "justification": "Confirms foresight tools were used specifically to build the assessment's evidence base on likely impacts."
+    },
+    "SWD(2025)96#p1-27-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The 2022 Strategic Foresight Report113 points to the potential of digitalisation and artificial intelligence to boost the emergence of more efficient mobility solutions",
+     "justification": "The Strategic Foresight Report's findings on digitalisation/AI trends are used to analyse impacts on the three identified problems in this assessment."
+    },
+    "SWD(2025)96#p1-27-4": {
+     "verdict": "embedded",
+     "evidence_quote": "The same foresight report identified “enabling a greener transport sector with digital technologies” as one of the areas where the twinning of the green and digital transitions is expected to have a major effect.",
+     "justification": "The foresight report's megatrend findings are directly applied to the assessment's analysis of vehicle emissions problems."
+    },
+    "SWD(2025)96#p1-27-5": {
+     "verdict": "embedded",
+     "evidence_quote": "The megatrend “climate change and environmental degradation”114 is directly related to the insufficient control of vehicle emissions",
+     "justification": "A named megatrend from the foresight toolset is applied directly to one of the assessment's core identified problems."
+    },
+    "SWD(2025)96#p1-27-6": {
+     "verdict": "embedded",
+     "evidence_quote": "The megatrend “climate change and environmental degradation”114 is directly related to the insufficient control of vehicle emissions, identified as one of the main issues",
+     "justification": "Megatrend analysis applied to justify and characterise one of the assessment's main identified problems."
+    },
+    "SWD(2025)96#p1-27-7": {
+     "verdict": "embedded",
+     "evidence_quote": "The same foresight report identified “enabling a greener transport sector with digital technologies” as one of the areas where the twinning of the green and digital transitions is expected to have a major effect.",
+     "justification": "Continued application of Strategic Foresight Report findings within the assessment's problem-driver analysis."
+    },
+    "SWD(2025)96#p1-31-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends and developments captured in the 2022 Strategic Foresight Report130, as explained in section 2.3.",
+     "justification": "The baseline scenario used to compare all policy options explicitly incorporates foresight megatrends from the Strategic Foresight Report."
+    },
+    "SWD(2025)96#p1-31-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends and developments captured in the 2022 Strategic Foresight Report",
+     "justification": "Confirms the quantified baseline transport-activity projections are shaped by the incorporated foresight megatrends."
+    },
+    "SWD(2025)96#p1-119-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends281 and developments captured in the 2022 Strategic Foresight Report282.",
+     "justification": "Repeats, in the annex, that the baseline scenario used for impact quantification incorporates foresight megatrends."
+    },
+    "SWD(2025)96#p1-119-2": {
+     "verdict": "embedded",
+     "evidence_quote": "The baseline also incorporates foresight megatrends281 and developments captured in the 2022 Strategic Foresight Report282. Among others, it captures the trend of increasing demand for transport",
+     "justification": "Confirms foresight-megatrend-informed baseline directly shapes the transport-demand growth assumptions used for policy comparison."
+    },
+    "SWD(2025)96#p1-119-3": {
+     "verdict": "embedded",
+     "evidence_quote": "281 https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore 282 COM(2022) 289 final.",
+     "justification": "Footnote identifying the specific Megatrends Hub tool and Strategic Foresight Report used to build the baseline scenario applied throughout this assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Foresight tools (Megatrends Hub)",
+    "2022 Strategic Foresight Report megatrends"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The assessment explicitly states it incorporated foresight tools and megatrends (from the 2022 Strategic Foresight Report and Megatrends Hub) throughout its problem analysis and baseline scenario, directly shaping both the qualitative problem-driver analysis and the quantified baseline transport-activity projections used to compare policy options.",
+   "notes": "One of the clearest embedded cases in this batch: the document has a dedicated 'Foresight tools' subsection explicitly describing how foresight was used throughout the analysis."
+  },
+  "SWD(2025)988": {
+   "mention_verdicts": {
+    "SWD(2025)988#p1-22-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Due to these three factors and using strategic foresight (looking ahead to 2030 and beyond), downstream carbon leakage could occur that may be hard to reverse.",
+     "justification": "Strategic foresight is explicitly used as the method to project forward to 2030 and beyond for the assessment's own analysis of whether the carbon-leakage problem will persist, corroborated by model estimates in the same section."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "Strategic foresight-based projection (to 2030 and beyond) of downstream carbon leakage persistence"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Strategic foresight was used directly to project the persistence/worsening of downstream carbon leakage risk absent policy intervention, a conclusion further corroborated by the modelling described in Section 6.",
+   "notes": ""
+  },
+  "SWD(2026)11": {
+   "mention_verdicts": {
+    "SWD(2026)11#p1-37-1": {
+     "verdict": "embedded",
+     "evidence_quote": "ENISA’s Foresight on Cybersecurity Threats for 2030115 highlights that the skills shortage in the cybersecurity field and the vulnerabilities in legacy systems are amongst the top threats",
+     "justification": "A named foresight product (ENISA's Foresight on Cybersecurity Threats for 2030) is used substantively within the 'how likely is the problem to persist' analysis to support the assessment's own conclusions."
+    },
+    "SWD(2026)11#p1-37-2": {
+     "verdict": "embedded",
+     "evidence_quote": "ENISA’s Foresight on Cybersecurity Threats for 2030 further lists supply chain compromises as the number one threat.",
+     "justification": "The foresight report's specific finding (top threat ranking) is used directly to support the assessment's problem-persistence argument."
+    },
+    "SWD(2026)11#p1-37-3": {
+     "verdict": "embedded",
+     "evidence_quote": "ENISA’s Foresight on Cybersecurity Threats for 2030 further lists supply chain compromises as the number one threat.",
+     "justification": "Continues the same problem-persistence analysis directly built on the ENISA foresight report's findings."
+    },
+    "SWD(2026)11#p1-38-1": {
+     "verdict": "embedded",
+     "evidence_quote": "ENISA indicates that if not effectively addressed, this problem will persist and most probably will be aggravated",
+     "justification": "The assessment's conclusion on problem persistence directly draws on ENISA's foresight-based projection to 2030."
+    },
+    "SWD(2026)11#p1-131-1": {
+     "verdict": "contextual",
+     "evidence_quote": "ENISA was also seen as well-positioned to support harmonisation of cybersecurity practices, provide sector-specific guidance, and lead on vulnerability services and strategic foresight.",
+     "justification": "Stakeholder-consultation feedback about ENISA's potential future role in strategic foresight; describes a possible future mandate item, not a method used to produce this assessment."
+    },
+    "SWD(2026)11#p1-147-1": {
+     "verdict": "contextual",
+     "evidence_quote": "proposals for EU-wide training and strategic foresight",
+     "justification": "Stakeholder submissions calling for strengthened strategic foresight capacity in future; discusses foresight as a policy topic, not a method applied in this assessment's own analysis."
+    },
+    "SWD(2026)11#p1-254-1": {
+     "verdict": "contextual",
+     "evidence_quote": "it set up an interdisciplinary working group on emerging and future cybersecurity challenges, integrating foresight into cybersecurity practices",
+     "justification": "Describes ENISA's own institutional practice as background evidence for the relevance assessment, not the IA's own foresight-based analytical method."
+    },
+    "SWD(2026)11#p1-300-1": {
+     "verdict": "contextual",
+     "evidence_quote": "the fact that ENISA’s foresight activities helped anticipate future regulatory needs",
+     "justification": "Evaluation evidence about ENISA's general track record with foresight activities, gathered via stakeholder survey; background evidence rather than a foresight method applied by this assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "ENISA Foresight on Cybersecurity Threats for 2030"
+   ],
+   "material_influence": "yes",
+   "influence_how": "ENISA's dedicated foresight report on cybersecurity threats to 2030 is used directly to support the assessment's conclusion that supply-chain and skills-shortage problems will persist and worsen without intervention.",
+   "notes": ""
+  },
+  "SWD(2026)114": {
+   "mention_verdicts": {
+    "SWD(2026)114#p1-8-1": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025 – Resilience 2.0: Empowering the EU to Thrive amid Turbulence and Uncertainty",
+     "justification": "Footnote citation to the 2025 Foresight Report among a long list of other cited sources; a supporting citation, not a method applied in the analysis."
+    },
+    "SWD(2026)114#p1-8-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025 – Resilience 2.0: Empowering the EU to Thrive amid Turbulence and Uncertainty",
+     "justification": "Same footnote citation repeated in the excerpt window; bibliographic reference rather than an applied foresight method."
+    },
+    "SWD(2026)114#p1-8-3": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025 – Resilience 2.0: Empowering the EU to Thrive amid Turbulence and Uncertainty",
+     "justification": "Same recurring footnote citation; no evidence the report's content shaped this assessment's own methodology or conclusions."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "All three mentions are the same footnote citing the 2025 Foresight Report among several other sources (OECD, Draghi report), used as general supporting background, not as an applied method."
+  },
+  "SWD(2026)300": {
+   "mention_verdicts": {
+    "SWD(2026)300#p1-32-1": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "The baseline scenario used to assess all policy options explicitly incorporates the 2022 Strategic Foresight Report and a DG MOVE/JRC foresight workshop on megatrends."
+    },
+    "SWD(2026)300#p1-32-2": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Same baseline-scenario passage feeding directly into the quantified passenger/transport projections used for option comparison."
+    },
+    "SWD(2026)300#p1-32-3": {
+     "verdict": "embedded",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "Footnote to the Megatrends Hub tool underpinning the baseline projections (e.g. MDMS platform and ticket-sales figures) used in this assessment."
+    },
+    "SWD(2026)300#p1-160-1": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Repeats the explicit statement that the baseline scenario results (used throughout the impact assessment) incorporate the Strategic Foresight Report and foresight workshop."
+    },
+    "SWD(2026)300#p1-160-2": {
+     "verdict": "embedded",
+     "evidence_quote": "and during a foresight workshop organised by DG MOVE and JRC on 10 February 2025, analysing the impacts of the megatrends and drivers of change on the EU transport sector",
+     "justification": "Same passage directly preceding the quantified baseline passenger-growth results used for policy comparison."
+    },
+    "SWD(2026)300#p1-160-3": {
+     "verdict": "embedded",
+     "evidence_quote": "https://knowledge4policy.ec.europa.eu/foresight/tool/megatrends-hub_en#explore",
+     "justification": "Footnote to the Megatrends Hub tool underlying the detailed baseline passenger-transport table used in this assessment."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "2022 Strategic Foresight Report",
+    "DG MOVE/JRC foresight workshop on megatrends (10 Feb 2025)",
+    "Megatrends Hub tool"
+   ],
+   "material_influence": "yes",
+   "influence_how": "The 2022 Strategic Foresight Report and a dedicated DG MOVE/JRC foresight workshop on transport megatrends were explicitly incorporated into the baseline scenario, directly shaping the quantified passenger and multimodal-transport projections used to compare policy options.",
+   "notes": ""
+  },
+  "SWD(2026)502": {
+   "mention_verdicts": {
+    "SWD(2026)502#p2-33-1": {
+     "verdict": "contextual",
+     "evidence_quote": "National authorities would also benefit from improved infrastructure foresight, with better planning for grid reinforcements",
+     "justification": "Generic use of 'foresight' meaning improved forward planning ability, described as an anticipated indirect benefit of the policy option, not a foresight method used in the assessment's own analysis."
+    },
+    "SWD(2026)502#p2-78-1": {
+     "verdict": "contextual",
+     "evidence_quote": "National authorities would benefit from improved infrastructure foresight and visibility of national data centre capacity",
+     "justification": "Same generic usage describing an anticipated benefit (better planning visibility) of the monitoring measure, not a foresight method applied by this assessment."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": "'Foresight' is used here as an ordinary-language term for forward planning capability that would result from the policy option, not in reference to the Commission's Strategic Foresight practice or any named foresight method."
+  },
+  "SWD(2026)504": {
+   "mention_verdicts": {
+    "SWD(2026)504#p2-172-1": {
+     "verdict": "contextual",
+     "evidence_quote": "improved foresight",
+     "justification": "Generic use of the word as one bullet among several indirect SME benefits (via a supply-chain monitoring platform), not a named foresight method used in the assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2026)580": {
+   "mention_verdicts": {
+    "SWD(2026)580#p1-136-1": {
+     "verdict": "contextual",
+     "evidence_quote": "risk shifting the balance towards reactive operational support at the expense of strategic foresight",
+     "justification": "An evaluation finding about a risk to Europol's own strategic foresight function; describes the subject/evaluation evidence about Europol's capacity, not a foresight method used to produce this assessment's own analysis."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "no",
+   "influence_how": "",
+   "notes": ""
+  },
+  "SWD(2026)616": {
+   "mention_verdicts": {
+    "SWD(2026)616#p1-6-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The European Commission 2025 Foresight1 report points out that climate change is a risk multiplier that should be addressed",
+     "justification": "Citation to the 2025 Foresight Report in the political/legal context introduction, providing background framing rather than a method applied in the analysis."
+    },
+    "SWD(2026)616#p1-6-2": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025: Resilience 2.0: Empowering the EU to thrive amid turbulence and uncertainty",
+     "justification": "Footnote citation of the Foresight Report; supporting background reference, not an applied method."
+    },
+    "SWD(2026)616#p1-6-3": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025: Resilience 2.0: Empowering the EU to thrive amid turbulence and uncertainty",
+     "justification": "Same footnote citation repeated in the excerpt window; bibliographic reference only."
+    },
+    "SWD(2026)616#p1-6-4": {
+     "verdict": "contextual",
+     "evidence_quote": "European Commission, Foresight Report 2025: Resilience 2.0: Empowering the EU to thrive amid turbulence and uncertainty",
+     "justification": "Same recurring footnote citation; not shown to shape the assessment's own methodology."
+    },
+    "SWD(2026)616#p1-66-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Energy system costs take into account both the capital costs of investments and potential economic savings in (fossil) energy expenditures, as experienced by the economic actors in a given year, over their foresight period.",
+     "justification": "A 'foresight period' is a modelling parameter of the PRIMES/POTEnCIA models directly used to produce the quantified energy-system cost tables in this assessment."
+    },
+    "SWD(2026)616#p2-59-1": {
+     "verdict": "embedded",
+     "evidence_quote": "The ETS price tool (ex post) can mimic different actor anticipation and foresight",
+     "justification": "Describes a capability of the PRIMES model, explicitly stated to be used 'for the purpose of the analysis in this impact assessment'."
+    },
+    "SWD(2026)616#p2-67-1": {
+     "verdict": "embedded",
+     "evidence_quote": "By simulating decision-making under imperfect foresight at a high level of techno-economic detail.",
+     "justification": "Describes the POTEnCIA model's foresight-based simulation approach; the annex explicitly states POTEnCIA 'has been used in the Annex on Cap setting' of this impact assessment."
+    },
+    "SWD(2026)616#p2-81-1": {
+     "verdict": "embedded",
+     "evidence_quote": "a limited foresight of the market from actors is considered (which inherently differs from PRIMES)",
+     "justification": "Describes a foresight/anticipation parameter of the POLES-Enerdata model that is explicitly used to adapt the baseline with MSR modelling in this assessment."
+    },
+    "SWD(2026)616#p2-82-1": {
+     "verdict": "embedded",
+     "evidence_quote": "PRIMES also uses a benchmark approach with foresight up to 2050.",
+     "justification": "Compares the foresight assumptions of the PRIMES and POLES-Enerdata models, both of which are used directly to produce this assessment's EUA price comparison (Figure 11)."
+    },
+    "SWD(2026)616#p2-84-1": {
+     "verdict": "embedded",
+     "evidence_quote": "Actors’ foresight: It is assumed that there is not a perfect but a limited foresight for actors assessing the constraint of the market. In this case, 8 years foresight is taken into account",
+     "justification": "A specific quantified foresight assumption (8-year horizon) is a direct input into the POLES-Enerdata modelling used to quantitatively assess the policy options in this IA."
+    },
+    "SWD(2026)616#p2-84-2": {
+     "verdict": "embedded",
+     "evidence_quote": "3.4.3.6. Actors’ foresight: It is assumed that there is not a perfect but a limited foresight for actors",
+     "justification": "Same 8-year foresight modelling parameter, explicitly part of the MSR modelling methodology described as used to quantify the impact of the three policy options."
+    },
+    "SWD(2026)616#p2-84-3": {
+     "verdict": "embedded",
+     "evidence_quote": "The 3 policy options are indeed assessed quantitatively with the POLES-Enerdata model to quantify their impacts in terms of MSR.",
+     "justification": "Confirms that the model incorporating the 8-year actors' foresight assumption is used to quantitatively assess the three policy options in this assessment."
+    },
+    "SWD(2026)616#p3-15-1": {
+     "verdict": "embedded",
+     "evidence_quote": "as experienced by the economic actors in a given year, over their foresight period. The numbers shown are a range of results of PRIMES and POTEnCIA models",
+     "justification": "The 'foresight period' modelling parameter directly underlies the quantified energy-system cost results (PRIMES and POTEnCIA) reported for the CAP3 scenario in this assessment."
+    },
+    "SWD(2026)616#p3-120-1": {
+     "verdict": "embedded",
+     "evidence_quote": "there are two potential issues with the evolution of the price in MSR0+, both of which are related to the 8-year foresight assumption of the modelling framework",
+     "justification": "The assessment's interpretation of its own MSR0+ policy-option modelling results is explicitly tied to the 8-year foresight assumption used in the model."
+    },
+    "SWD(2026)616#p3-181-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the model incorporates projected developments of the EU ETS and energy prices with perfect foresight over the full support period",
+     "justification": "Describes a 'perfect foresight' assumption in the Fraunhofer model used to quantify the funding gap for the Industrial Decarbonisation Bank policy option in this assessment."
+    },
+    "SWD(2026)616#p3-182-1": {
+     "verdict": "embedded",
+     "evidence_quote": "combined with moderate assumptions on WACC, the economic actors’ perfect foresight, this approach assumes maximum efficiency in the allocation mechanism of public support",
+     "justification": "Continues describing the perfect-foresight assumption underpinning the IDB funding-gap model used to assess this policy option."
+    },
+    "SWD(2026)616#p3-186-1": {
+     "verdict": "embedded",
+     "evidence_quote": "the model assumes perfect foresight, perfect economic efficiency and no transaction costs",
+     "justification": "Limitations section of the same IDB funding-gap model actually used to quantify this assessment's policy option, flagging the perfect-foresight assumption as a caveat."
+    },
+    "SWD(2026)616#p5-71-1": {
+     "verdict": "contextual",
+     "evidence_quote": "The modelling exercise is, however, based on the strong assumption that regulated entities have perfect foresight and are rationally optimising their abatement behaviour over decades.",
+     "justification": "Discusses an external academic study's (Bocklet et al. 2019) modelling assumption as part of a literature-review style retrospective evaluation, not this IA's own applied model."
+    },
+    "SWD(2026)616#p5-71-2": {
+     "verdict": "contextual",
+     "evidence_quote": "If the price dilution was caused by a limited foresight of market participants and a lack of confidence into the EU ETS, the MSR improved efficiency.",
+     "justification": "Continuation of the literature-review discussion of external studies (2014 IA, Bocklet et al.) in the retrospective evaluation section, not a method applied by this assessment's own analysis."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "PRIMES energy-system model",
+    "POTEnCIA model",
+    "POLES-Enerdata model",
+    "Fraunhofer IDB funding-gap model (all using explicit 'actors' foresight'/anticipation-horizon parameters)"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Multiple economic models used directly in this assessment (PRIMES, POTEnCIA, POLES-Enerdata, and a Fraunhofer funding-gap model) rely on explicit 'foresight'/anticipation-horizon assumptions (e.g. an 8-year actors' foresight horizon, 'perfect foresight' over the support period) that materially shape the quantified cost, price and investment-need estimates used to compare the EU ETS/MSR policy options.",
+   "notes": "Strongest embedded case in this batch: 'foresight' here is a named, quantified technical parameter (e.g. '8 years foresight') within models explicitly stated to be used for this assessment's own quantitative option comparisons, not a citation. The Part 5 mentions are the exception, discussing an external academic paper's modelling assumption within a literature-review-style evaluation section, and are kept contextual."
+  },
+  "SWD(2026)71": {
+   "mention_verdicts": {
+    "SWD(2026)71#p1-12-1": {
+     "verdict": "contextual",
+     "evidence_quote": "COM(2025) 484 final – European Commission 2025 Strategic Foresight Report",
+     "justification": "Bare footnote citation among a list of other footnotes; no visible link to a specific claim being analytically supported in the excerpt."
+    },
+    "SWD(2026)71#p1-20-1": {
+     "verdict": "contextual",
+     "evidence_quote": "is also highlighted in the 2025 Strategic Foresight Report103, which stresses that Europe’s resilience and prosperity depend on accelerating industrial transformation while safeguarding competitiveness and strategic autonomy",
+     "justification": "The Strategic Foresight Report is cited to corroborate a general claim about decarbonisation priorities; a supporting citation rather than an applied foresight method."
+    },
+    "SWD(2026)71#p1-20-2": {
+     "verdict": "contextual",
+     "evidence_quote": "103 European Commission (2025). 2025 Strategic Foresight Report, COM(2025) 484 final.",
+     "justification": "Footnote citation supporting the preceding sentence, not a method applied within the assessment's own analysis."
+    },
+    "SWD(2026)71#p1-22-1": {
+     "verdict": "contextual",
+     "evidence_quote": "This vulnerability echoes the broader megatrends identified in the 2025 Strategic Foresight Report112, which emphasises the growing regional and social disparities as a key test for Europe’s resilience by 2040",
+     "justification": "The Strategic Foresight Report's megatrends are invoked to corroborate a claim about regional vulnerability; a citation used for corroboration, not a foresight method applied by this assessment."
+    },
+    "SWD(2026)71#p1-22-2": {
+     "verdict": "contextual",
+     "evidence_quote": "112 European Commission (2025). 2025 Strategic Foresight Repor, COM(2025) 484 final.",
+     "justification": "Footnote citation repeating the same reference; supporting citation rather than an applied method."
+    }
+   },
+   "kind": "contextual",
+   "methods": [],
+   "material_influence": "unclear",
+   "influence_how": "",
+   "notes": "The 2025 Strategic Foresight Report is cited repeatedly to corroborate claims in the problem-definition and persistence sections (industrial decarbonisation priority, regional disparities), but the excerpts show citation/corroboration rather than a specific foresight method, scenario, or quantified projection being applied within this assessment's own analysis. Marked material_influence as unclear rather than no, since the report is invoked multiple times to support substantive problem-analysis claims and a reviewer with fuller document access might find deeper integration."
+  },
+  "SWD(2026)89": {
+   "mention_verdicts": {
+    "SWD(2026)89#p1-29-1": {
+     "verdict": "embedded",
+     "evidence_quote": "According to the 2022 Strategic Foresight Report121, the demand for transport will continue to grow in view of forecasted population growth and higher living standards.",
+     "justification": "A specific quantified transport-demand projection from the Strategic Foresight Report is used directly in the 'how likely is the problem to persist' analysis underpinning this assessment's conclusions."
+    },
+    "SWD(2026)89#p1-29-2": {
+     "verdict": "embedded",
+     "evidence_quote": "121 Communication from the Commission to the European Parliament and the Council, 2022 Strategic Foresight Report, COM 2022 289 final.",
+     "justification": "Footnote confirming the specific Strategic Foresight Report projection (21%/45% transport growth by 2050) used substantively in the problem-persistence analysis."
+    }
+   },
+   "kind": "embedded",
+   "methods": [
+    "2022 Strategic Foresight Report transport-demand projections"
+   ],
+   "material_influence": "yes",
+   "influence_how": "Specific quantified transport-demand growth projections (21% passenger, 45% freight by 2050) from the 2022 Strategic Foresight Report are used directly to support the assessment's conclusion that the problem of low short-line/rail transport modal share will persist absent intervention.",
+   "notes": ""
+  }
+ }
+}
