@@ -1,6 +1,14 @@
 {
- "generated_at": "2026-07-31T17:04:35+00:00",
+ "generated_at": "2026-10-22T19:11:18+00:00",
  "method": "AI drafts produced in Claude sessions using prompts/classification-prompt.md; human review required (docs/adr/0001)",
+ "provenance": {
+  "model": "Claude Fable 5",
+  "model_id": "claude-fable-5",
+  "produced_on": "2026-07-31",
+  "run_via": "Claude Code sessions under a Claude subscription (no API calls)",
+  "prompt": "prompts/classification-prompt.md",
+  "prompt_commit": "c1fc224"
+ },
  "taxonomy": [
   "Agriculture, food and animal welfare",
   "Circular economy and waste",
